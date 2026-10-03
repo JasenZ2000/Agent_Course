@@ -33,7 +33,7 @@
 | [LangChain Academy：Introduction to Deep Agents](../courses/langchain_deep_agents/README.md) | — | — | — | — |
 | [LangChain Academy：Introduction to Agent Observability & Evaluations](../courses/langchain_observability_evaluations/README.md) | — | — | 1 | — |
 | [Hugging Face MCP Course](../courses/huggingface-mcp/README.md) | — | — | — | — |
-| [NVIDIA DLI：Building RAG Agents with LLMs](../courses/nvidia-building-rag-agents/README.md) | — | 1 | — | — |
+| [NVIDIA DLI：Building RAG Agents with LLMs](../courses/nvidia-building-rag-agents/README.md) | — | ? | — | — |
 | [NVIDIA DLI：Building Agentic AI Applications with LLMs](../courses/nvidia-building-agentic-ai-applications/README.md) | ? | ? | ? | ? |
 | [IBM：Agentic AI in Practice](../courses/ibm-agentic-ai-in-practice/README.md) | 1 | ? | ? | ? |
 | [DeepLearning.AI：AI Agents in LangGraph](../courses/dlai-ai-agents-in-langgraph/README.md) | — | — | — | — |
@@ -58,10 +58,10 @@
 | [Hugging Face AI Agents Course](../courses/huggingface_agents/README.md) | 3 | 3 | 3 | 2 | 3 |
 | [Google × Kaggle：5-Day AI Agents Intensive（2025）](../courses/google_agents_2025/README.md) | ? | 1 | — | — | — |
 | [Google × Kaggle：5-Day AI Agents Intensive（2026 Vibe Coding版）](../courses/google_agents_2026_vibecoding/README.md) | — | 1 | — | — | — |
-| [Vanderbilt：AI Agents and Agentic AI with Python & Generative AI](../courses/vanderbilt_python_agent_implementation/README.md) | ? | 1 | ? | ? | 1 |
+| [Vanderbilt：AI Agents and Agentic AI with Python & Generative AI](../courses/vanderbilt_python_agent_implementation/README.md) | ? | 1 | ? | ? | ? |
 | [Vanderbilt：Prompt Engineering for ChatGPT](../courses/vanderbilt_prompt_engineering/README.md) | ? | ? | ? | ? | ? |
 | [Vanderbilt：AI Agents and Agentic AI Architecture in Python](../courses/vanderbilt_python_agent_architecture/README.md) | ? | ? | ? | ? | ? |
-| [Microsoft AI Agents for Beginners](../courses/microsoft_ai_agents/README.md) | 3 | 3 | 3 | 2 | 3 |
+| [Microsoft AI Agents for Beginners](../courses/microsoft_ai_agents/README.md) | 3 | 3 | 3 | 2 | 2 |
 | [Datawhale《Generic Agent 使用指南》](../courses/generic_agent/README.md) | 1 | 1 | — | — | — |
 | [freeCodeCamp发布：Agentic AI – Complete Course for Beginners](../courses/freecodecamp_agentic_ai/README.md) | ? | 1 | 1 | ? | — |
 | [LangChain Academy Introduction to LangGraph](../courses/langgraph_fundamentals/README.md) | 3 | 3 | 3 | — | — |
@@ -132,36 +132,36 @@
 
 | 课程 | K15 | K16 | K17 | K18 |
 |---|---|---|---|---|
-| [Datawhale《从零开始构建智能体》](../courses/datawhale_hello_agents/README.md) | 3 | ? | — | — |
+| [Datawhale《从零开始构建智能体》](../courses/datawhale_hello_agents/README.md) | ? | ? | — | — |
 | [吴恩达 Agentic AI](../courses/deeplearning_ai_agentic_ai/README.md) | — | — | — | — |
-| [Hugging Face AI Agents Course](../courses/huggingface_agents/README.md) | 3 | 2 | — | — |
+| [Hugging Face AI Agents Course](../courses/huggingface_agents/README.md) | ? | 2 | — | — |
 | [Google × Kaggle：5-Day AI Agents Intensive（2025）](../courses/google_agents_2025/README.md) | 1 | 1 | — | 1 |
 | [Google × Kaggle：5-Day AI Agents Intensive（2026 Vibe Coding版）](../courses/google_agents_2026_vibecoding/README.md) | — | — | — | — |
 | [Vanderbilt：AI Agents and Agentic AI with Python & Generative AI](../courses/vanderbilt_python_agent_implementation/README.md) | ? | ? | ? | ? |
 | [Vanderbilt：Prompt Engineering for ChatGPT](../courses/vanderbilt_prompt_engineering/README.md) | ? | ? | ? | ? |
 | [Vanderbilt：AI Agents and Agentic AI Architecture in Python](../courses/vanderbilt_python_agent_architecture/README.md) | ? | 1 | ? | ? |
-| [Microsoft AI Agents for Beginners](../courses/microsoft_ai_agents/README.md) | 3 | 3 | 3 | 3 |
-| [Datawhale《Generic Agent 使用指南》](../courses/generic_agent/README.md) | 1 | 1 | — | — |
-| [freeCodeCamp发布：Agentic AI – Complete Course for Beginners](../courses/freecodecamp_agentic_ai/README.md) | 1 | ? | — | 1 |
+| [Microsoft AI Agents for Beginners](../courses/microsoft_ai_agents/README.md) | 2 | 3 | 3 | 3 |
+| [Datawhale《Generic Agent 使用指南》](../courses/generic_agent/README.md) | ? | 1 | — | — |
+| [freeCodeCamp发布：Agentic AI – Complete Course for Beginners](../courses/freecodecamp_agentic_ai/README.md) | ? | ? | — | 1 |
 | [LangChain Academy Introduction to LangGraph](../courses/langgraph_fundamentals/README.md) | 3 | 3 | 3 | 3 |
-| [LangChain Academy：Project — Ambient Agents with LangGraph](../courses/langchain_ambient_agents/README.md) | 1 | ? | — | 1 |
+| [LangChain Academy：Project — Ambient Agents with LangGraph](../courses/langchain_ambient_agents/README.md) | ? | ? | — | 1 |
 | [Anthropic Claude Platform 101](../courses/anthropic_platform_101/README.md) | ? | — | — | — |
 | [Anthropic Building with the Claude API](../courses/anthropic_claude_api/README.md) | 2 | — | — | — |
 | [Anthropic Introduction to Model Context Protocol](../courses/anthropic_mcp_course/README.md) | — | — | — | — |
 | [OpenAI Building Agents 文档路线](../courses/openai_building_agents/README.md) | 2 | — | 2 | 2 |
-| [LangChain Academy：Introduction to Deep Agents](../courses/langchain_deep_agents/README.md) | 1 | ? | ? | 1 |
+| [LangChain Academy：Introduction to Deep Agents](../courses/langchain_deep_agents/README.md) | ? | ? | ? | 1 |
 | [LangChain Academy：Introduction to Agent Observability & Evaluations](../courses/langchain_observability_evaluations/README.md) | — | — | — | — |
 | [Hugging Face MCP Course](../courses/huggingface-mcp/README.md) | — | — | — | — |
 | [NVIDIA DLI：Building RAG Agents with LLMs](../courses/nvidia-building-rag-agents/README.md) | ? | — | — | — |
 | [NVIDIA DLI：Building Agentic AI Applications with LLMs](../courses/nvidia-building-agentic-ai-applications/README.md) | ? | ? | ? | ? |
 | [IBM：Agentic AI in Practice](../courses/ibm-agentic-ai-in-practice/README.md) | ? | ? | ? | ? |
-| [DeepLearning.AI：AI Agents in LangGraph](../courses/dlai-ai-agents-in-langgraph/README.md) | 1 | — | 1 | ? |
+| [DeepLearning.AI：AI Agents in LangGraph](../courses/dlai-ai-agents-in-langgraph/README.md) | ? | — | 1 | ? |
 | [DeepLearning.AI：Multi AI Agent Systems with crewAI](../courses/dlai-multi-ai-agent-systems-crewai/README.md) | 1 | 1 | — | — |
 | [DeepLearning.AI：Building Coding Agents with Tool Execution](../courses/dlai-building-coding-agents-tool-execution/README.md) | — | — | — | — |
 | [Berkeley：LLM Agents Fall 2024](../courses/berkeley-llm-agents-fall-2024/README.md) | — | — | — | — |
 | [Berkeley：LLM Agents Spring 2025](../courses/berkeley-llm-agents-spring-2025/README.md) | ? | ? | ? | ? |
 | [Berkeley：Agentic AI Fall 2025](../courses/berkeley-agentic-ai-fall-2025/README.md) | ? | ? | ? | ? |
-| [CMU 11-768：AI Agents Fall 2026](../courses/cmu-11768-ai-agents-fall-2026/README.md) | 1 | ? | — | — |
+| [CMU 11-768：AI Agents Fall 2026](../courses/cmu-11768-ai-agents-fall-2026/README.md) | ? | ? | — | — |
 ## 知识与上下文
 
 - **K19**：上下文选择、压缩、卸载与缓存
@@ -410,33 +410,33 @@
 
 | 课程 | 目录级1 | 解释级2 | 实作材料级3 | 细目不足? |
 |---|---:|---:|---:|---:|
-| Datawhale《从零开始构建智能体》 | 1 | 6 | 27 | 1 |
+| Datawhale《从零开始构建智能体》 | 1 | 6 | 26 | 2 |
 | 吴恩达 Agentic AI | 0 | 17 | 0 | 3 |
-| Hugging Face AI Agents Course | 2 | 12 | 22 | 1 |
+| Hugging Face AI Agents Course | 2 | 12 | 21 | 2 |
 | Google × Kaggle：5-Day AI Agents Intensive（2025） | 12 | 0 | 0 | 2 |
 | Google × Kaggle：5-Day AI Agents Intensive（2026 Vibe Coding版） | 7 | 0 | 0 | 2 |
-| Vanderbilt：AI Agents and Agentic AI with Python & Generative AI | 3 | 0 | 0 | 46 |
+| Vanderbilt：AI Agents and Agentic AI with Python & Generative AI | 2 | 0 | 0 | 47 |
 | Vanderbilt：Prompt Engineering for ChatGPT | 2 | 0 | 0 | 47 |
 | Vanderbilt：AI Agents and Agentic AI Architecture in Python | 3 | 0 | 0 | 46 |
-| Microsoft AI Agents for Beginners | 1 | 7 | 34 | 1 |
-| Datawhale《Generic Agent 使用指南》 | 9 | 0 | 0 | 2 |
-| freeCodeCamp发布：Agentic AI – Complete Course for Beginners | 14 | 0 | 0 | 3 |
+| Microsoft AI Agents for Beginners | 1 | 9 | 32 | 1 |
+| Datawhale《Generic Agent 使用指南》 | 8 | 0 | 0 | 3 |
+| freeCodeCamp发布：Agentic AI – Complete Course for Beginners | 13 | 0 | 0 | 4 |
 | LangChain Academy Introduction to LangGraph | 1 | 3 | 18 | 0 |
-| LangChain Academy：Project — Ambient Agents with LangGraph | 7 | 0 | 0 | 3 |
+| LangChain Academy：Project — Ambient Agents with LangGraph | 6 | 0 | 0 | 4 |
 | Anthropic Claude Platform 101 | 0 | 7 | 0 | 8 |
 | Anthropic Building with the Claude API | 3 | 20 | 0 | 3 |
 | Anthropic Introduction to Model Context Protocol | 0 | 2 | 0 | 3 |
 | OpenAI Building Agents 文档路线 | 2 | 15 | 0 | 4 |
-| LangChain Academy：Introduction to Deep Agents | 10 | 0 | 0 | 5 |
+| LangChain Academy：Introduction to Deep Agents | 9 | 0 | 0 | 6 |
 | LangChain Academy：Introduction to Agent Observability & Evaluations | 4 | 0 | 0 | 2 |
 | Hugging Face MCP Course | 3 | 0 | 0 | 2 |
-| NVIDIA DLI：Building RAG Agents with LLMs | 10 | 0 | 0 | 2 |
+| NVIDIA DLI：Building RAG Agents with LLMs | 9 | 0 | 0 | 3 |
 | NVIDIA DLI：Building Agentic AI Applications with LLMs | 1 | 0 | 0 | 48 |
 | IBM：Agentic AI in Practice | 10 | 0 | 0 | 39 |
-| DeepLearning.AI：AI Agents in LangGraph | 4 | 0 | 0 | 6 |
+| DeepLearning.AI：AI Agents in LangGraph | 3 | 0 | 0 | 7 |
 | DeepLearning.AI：Multi AI Agent Systems with crewAI | 7 | 0 | 0 | 3 |
 | DeepLearning.AI：Building Coding Agents with Tool Execution | 7 | 0 | 0 | 0 |
 | Berkeley：LLM Agents Fall 2024 | 12 | 0 | 0 | 3 |
 | Berkeley：LLM Agents Spring 2025 | 1 | 0 | 0 | 48 |
 | Berkeley：Agentic AI Fall 2025 | 1 | 0 | 0 | 48 |
-| CMU 11-768：AI Agents Fall 2026 | 11 | 0 | 0 | 4 |
+| CMU 11-768：AI Agents Fall 2026 | 10 | 0 | 0 | 5 |

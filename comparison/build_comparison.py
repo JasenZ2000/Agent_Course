@@ -60,6 +60,8 @@ RAW=[
 (49,5,'低代码平台与流程搭建','低代码|Coze|Dify|n8n|FastGPT','平台式构建与手写框架分开'),
 ]
 TOPICS=[dict(id=f'K{n:02}',stage=STAGES[s],stage_index=s,title=t,aliases=a,description=d) for n,s,t,a,d in RAW]
+PRECISE={'K02':'大语言模型|token|模型选择|messages|Tokens|LLM基础','K09':'沙箱|sandbox|代码执行|Terminal|文件系统|文件操作','K13':'LangGraph|StateGraph|reducer|图编排|节点|图基础','K15':'短期|会话历史|history|对话历史|短时|会话记忆'}
+for t in TOPICS:t['aliases']=PRECISE.get(t['id'],t['aliases'])
 TOPICS.sort(key=lambda t:(t['stage_index'],int(t['id'][1:])))
 # Explicit reviewed candidate levels: 1 directory/intro; 2 explanation; 3 concrete implementation/assignment examined in reviews.
 RATINGS={
@@ -132,7 +134,9 @@ for c in CAT:
  for t in TOPICS:
   key=t['id'];level=ratings.get(key); candidates=[]
   if level:
-   candidates=[l.strip() for l in lines if re.search(t['aliases'],l,re.I) and not l.startswith('#') and len(l)>20]
+   candidates=[l.strip() for l in lines if re.search(t['aliases'],l,re.I) and not l.startswith('#') and len(l)>20 and not re.search(r'研究基准|盘点日期|静态审阅|来源边界|本地快照',l)]
+   if key=='K10':candidates=[l for l in candidates if not re.search(r'Q/K/V|Attention',l)]
+   candidates.sort(key=lambda l:sum(bool(re.search(a,l,re.I)) for a in t['aliases'].split('|')),reverse=True)
    catalog_lines=[s['title']+': '+'、'.join(s['items']) for s in c['sections'] if re.search(t['aliases'],s['title']+' '.join(s['items']),re.I)]
    if level>=2 and not candidates:level=1
    if level==3 and not any(re.search(r'notebook|脚本|示例|代码|练习|\.ipynb|Python|config|实现|作业',l,re.I) for l in candidates):level=2
@@ -153,7 +157,7 @@ for c in CAT:
 OUT=ROOT/'comparison';OUT.mkdir(exist_ok=True)
 DATA={'date':'2026-10-03','taxonomy_version':'1.0','stages':STAGES,'topics':TOPICS,'courses':COURSES,'depth_labels':{'1':'目录明确列出','2':'正文/转录中有解释','3':'审阅材料可定位具体实现或练习','—':'当前审阅未定位','?':'细目不足以判断'}}
 (OUT/'coverage.json').write_text(json.dumps(DATA,ensure_ascii=False,indent=2),'utf8')
-buf=io.StringIO();w=csv.writer(buf);w.writerow(['course_id','course','stage','topic_id','topic','level','review','locator','official_source'])
+buf=io.StringIO();w=csv.writer(buf,lineterminator='\n');w.writerow(['course_id','course','stage','topic_id','topic','level','review','locator','official_source'])
 for c in COURSES:
  for t in TOPICS:
   v=c['cells'][t['id']];w.writerow([c['id'],c['title'],t['stage'],t['id'],t['title'],v['level'],v.get('review',''),v.get('locator',v.get('reason','')),c['source']])
