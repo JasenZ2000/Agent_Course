@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<rect width="1920" height="1080" fill="#F4F6FA"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style>
+<text x="60" y="34" dominant-baseline="text-before-edge" font-size="23" fill="#53627B" font-weight="400">AGENT 学习资源 · 目录图</text>
+<text x="60" y="78" dominant-baseline="text-before-edge" font-size="46" fill="#162238" font-weight="700">Anthropic Building with the Claude API</text>
+<text x="60" y="145" dominant-baseline="text-before-edge" font-size="24" fill="#53627B" font-weight="400">课程  |  官方模块目录 · 中文概括与编辑归组</text>
+<line x1="60" y1="208" x2="1860" y2="208" stroke="#C1CDE2" stroke-width="2"/>
+<line x1="351" y1="208" x2="351" y2="236" stroke="#C1CDE2" stroke-width="2"/>
+<rect x="60" y="236" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="80" y="258" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="90" y="263" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">1</text>
+<text x="133" y="263" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">API与提示基础</text>
+<rect x="84" y="327" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="318" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">请求流程与API密钥</text>
+<rect x="84" y="373" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="364" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">首次请求与多轮消息</text>
+<rect x="84" y="419" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="410" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">系统提示与提示模板</text>
+<rect x="84" y="465" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="456" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">模型参数与生成控制</text>
+<rect x="84" y="511" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="502" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">流式响应与结构化数据</text>
+<line x1="959" y1="208" x2="959" y2="236" stroke="#C1CDE2" stroke-width="2"/>
+<rect x="668" y="236" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="688" y="258" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="698" y="263" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">2</text>
+<text x="741" y="263" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">提示评测</text>
+<rect x="692" y="327" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="318" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">生成测试数据集</text>
+<rect x="692" y="373" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="364" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">模型评分</text>
+<rect x="692" y="419" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="410" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">代码评分与人工评分</text>
+<rect x="692" y="465" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="456" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">迭代优化提示</text>
+<line x1="1567" y1="208" x2="1567" y2="236" stroke="#C1CDE2" stroke-width="2"/>
+<rect x="1276" y="236" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="1296" y="258" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="1306" y="263" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">3</text>
+<text x="1349" y="263" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">工具与Agent循环</text>
+<rect x="1300" y="327" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="318" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">定义工具函数</text>
+<rect x="1300" y="373" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="364" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">工具调用与结果回传</text>
+<rect x="1300" y="419" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="410" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">多工具和错误处理</text>
+<rect x="1300" y="465" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="456" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">内置搜索与文本编辑</text>
+<rect x="1300" y="511" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="502" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Agent与可组合工具</text>
+<rect x="60" y="615" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="80" y="637" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="90" y="642" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">4</text>
+<text x="133" y="642" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">检索与上下文</text>
+<rect x="84" y="706" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="697" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">RAG与文档切分</text>
+<rect x="84" y="752" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="743" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Embedding与检索</text>
+<rect x="84" y="798" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="789" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">BM25词法搜索</text>
+<rect x="84" y="844" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="835" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">多索引与RRF</text>
+<rect x="84" y="890" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="881" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">缓存及多模态内容</text>
+<rect x="668" y="615" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="688" y="637" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="698" y="642" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">5</text>
+<text x="741" y="642" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">MCP与应用集成</text>
+<rect x="692" y="706" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="697" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">MCP概念与客户端</text>
+<rect x="692" y="752" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="743" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">实现工具、资源和提示</text>
+<rect x="692" y="798" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="789" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Inspector调试</text>
+<rect x="692" y="844" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="835" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">连接Claude应用与MCP服务</text>
+<rect x="692" y="890" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="881" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Claude Code开发流程</text>
+<rect x="1276" y="615" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="1296" y="637" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="1306" y="642" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">6</text>
+<text x="1349" y="642" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">工作流与Agent设计</text>
+<rect x="1300" y="706" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="697" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">并行与链式工作流</text>
+<rect x="1300" y="752" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="743" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">路由工作流</text>
+<rect x="1300" y="798" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="789" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">环境检查</text>
+<rect x="1300" y="844" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="835" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">工作流与Agent取舍</text>
+<text x="60" y="997" dominant-baseline="text-before-edge" font-size="18" fill="#53627B" font-weight="400">来源：https://academy.claude.com/courses/building-with-the-claude-api</text>
+<text x="60" y="1033" dominant-baseline="text-before-edge" font-size="18" fill="#53627B" font-weight="400">中文标题用于视频展示；官方模块与编辑归纳以本图标记为准。资料核验：2026-10-03</text>
+</svg>

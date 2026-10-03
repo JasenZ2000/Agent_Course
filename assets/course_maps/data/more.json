@@ -1,0 +1,384 @@
+[
+  {
+    "id": "google_agents_2025",
+    "title": "Google × Kaggle：5-Day AI Agents Intensive（2025）",
+    "kind": "自学课程指南",
+    "basis": "官方五日主题顺序（中文概括）",
+    "source_url": "https://www.kaggle.com/learn-guide/5-day-agents",
+    "sections": [
+      {
+        "title": "第1天：Agent入门",
+        "items": [
+          "Agent基础",
+          "单Agent与多Agent"
+        ]
+      },
+      {
+        "title": "第2天：工具与MCP",
+        "items": [
+          "Python工具",
+          "MCP",
+          "人工批准"
+        ]
+      },
+      {
+        "title": "第3天：会话与记忆",
+        "items": [
+          "会话管理",
+          "跨会话记忆"
+        ]
+      },
+      {
+        "title": "第4天：可观测性与评测",
+        "items": [
+          "运行观测",
+          "Agent评测"
+        ]
+      },
+      {
+        "title": "第5天：A2A与生产部署",
+        "items": [
+          "A2A",
+          "生产部署",
+          "综合项目"
+        ]
+      }
+    ],
+    "source": "https://www.kaggle.com/learn-guide/5-day-agents",
+    "diagram_basis": "官方模块目录 · 中文概括与编辑归组"
+  },
+  {
+    "id": "google_agents_2026_vibecoding",
+    "title": "Google × Kaggle：5-Day AI Agents Intensive（2026 Vibe Coding版）",
+    "kind": "自学课程指南",
+    "basis": "已核实资料列出的新版五日主题顺序；与2025版分开",
+    "source_url": "https://www.kaggle.com/learn-guide/5-day-agents-vibecoding",
+    "sections": [
+      {
+        "title": "第1天：Agent与Vibe Coding",
+        "items": [
+          "Agent基础",
+          "Vibe Coding"
+        ]
+      },
+      {
+        "title": "第2天：工具互操作",
+        "items": [
+          "工具互操作",
+          "连接不同工具"
+        ]
+      },
+      {
+        "title": "第3天：Agent Skills",
+        "items": [
+          "Agent Skills",
+          "技能使用"
+        ]
+      },
+      {
+        "title": "第4天：安全与评测",
+        "items": [
+          "安全",
+          "评测"
+        ]
+      },
+      {
+        "title": "第5天：规格驱动部署",
+        "items": [
+          "规格驱动开发",
+          "部署"
+        ]
+      }
+    ],
+    "source": "https://www.kaggle.com/learn-guide/5-day-agents-vibecoding",
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  },
+  {
+    "id": "vanderbilt_python_agent_implementation",
+    "title": "Vanderbilt：AI Agents and Agentic AI with Python & Generative AI",
+    "kind": "课程单课",
+    "basis": "简介主题归纳；已核实资料未提供该单课完整目录",
+    "source_url": "https://www.coursera.org/specializations/ai-agents-python",
+    "sections": [
+      {
+        "title": "简介主题",
+        "items": [
+          "手写框架组件",
+          "工具发现与函数调用",
+          "文件探索",
+          "文档生成"
+        ]
+      }
+    ],
+    "source": "https://www.coursera.org/specializations/ai-agents-python",
+    "diagram_basis": "公开内容主题归纳 · 非官方逐课目录"
+  },
+  {
+    "id": "vanderbilt_prompt_engineering",
+    "title": "Vanderbilt：Prompt Engineering for ChatGPT",
+    "kind": "课程单课",
+    "basis": "简介主题归纳；尚未核实完整模块目录",
+    "source_url": "https://www.coursera.org/specializations/ai-agents-python",
+    "sections": [
+      {
+        "title": "简介主题",
+        "items": [
+          "提示词设计",
+          "Prompt Patterns 提示模式",
+          "生活、工作与教育中的提示应用"
+        ]
+      }
+    ],
+    "source": "https://www.coursera.org/specializations/ai-agents-python",
+    "diagram_basis": "简介主题归纳 · 尚未核实完整模块目录"
+  },
+  {
+    "id": "vanderbilt_python_agent_architecture",
+    "title": "Vanderbilt：AI Agents and Agentic AI Architecture in Python",
+    "kind": "课程单课",
+    "basis": "简介主题归纳；已核实资料未提供该单课完整目录",
+    "source_url": "https://www.coursera.org/specializations/ai-agents-python",
+    "sections": [
+      {
+        "title": "简介主题",
+        "items": [
+          "多Agent协作",
+          "共享记忆",
+          "分阶段执行",
+          "可逆动作"
+        ]
+      }
+    ],
+    "source": "https://www.coursera.org/specializations/ai-agents-python",
+    "diagram_basis": "公开内容主题归纳 · 非官方逐课目录"
+  },
+  {
+    "id": "generic_agent",
+    "title": "Datawhale《Generic Agent 使用指南》",
+    "kind": "项目指南",
+    "basis": "官方目录三篇结构（中文概括）",
+    "source_url": "https://datawhalechina.github.io/hello-generic-agent/",
+    "sections": [
+      {
+        "title": "应用指南",
+        "items": [
+          "安装",
+          "浏览器能力",
+          "日常使用",
+          "记忆与技能",
+          "聊天平台集成"
+        ]
+      },
+      {
+        "title": "原理篇",
+        "items": [
+          "Agent循环",
+          "工具集",
+          "分层记忆",
+          "上下文压缩",
+          "自我进化"
+        ]
+      },
+      {
+        "title": "案例篇",
+        "items": [
+          "办公任务",
+          "网络任务"
+        ]
+      }
+    ],
+    "source": "https://datawhalechina.github.io/hello-generic-agent/",
+    "diagram_basis": "官方模块目录 · 中文概括与编辑归组"
+  },
+  {
+    "id": "freecodecamp_agentic_ai",
+    "title": "freeCodeCamp发布：Agentic AI – Complete Course for Beginners",
+    "kind": "长视频课程",
+    "basis": "按本地审阅的课程与配套代码主题顺序",
+    "source_url": "https://www.youtube.com/watch?v=Zy7EXDONlTY",
+    "sections": [
+      {
+        "title": "基础",
+        "items": [
+          "Agentic AI基础",
+          "异步Python",
+          "Pydantic"
+        ]
+      },
+      {
+        "title": "LangChain Agent",
+        "items": [
+          "单Agent",
+          "多Agent"
+        ]
+      },
+      {
+        "title": "LangGraph与项目",
+        "items": [
+          "工作流",
+          "聊天机器人"
+        ]
+      },
+      {
+        "title": "项目工程主题",
+        "items": [
+          "记忆与工具",
+          "RAG",
+          "人工介入",
+          "监控",
+          "部署"
+        ]
+      }
+    ],
+    "source": "https://www.youtube.com/watch?v=Zy7EXDONlTY",
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  },
+  {
+    "id": "langchain_deep_agents",
+    "title": "LangChain Academy：Introduction to Deep Agents",
+    "kind": "课程",
+    "basis": "官方五模块顺序，按本地课程目录记录",
+    "source_url": "https://academy.langchain.com/courses/foundation-introduction-to-deepagents",
+    "sections": [
+      {
+        "title": "Agent构建",
+        "items": [
+          "Agent构建",
+          "MCP",
+          "状态保存",
+          "人工介入"
+        ]
+      },
+      {
+        "title": "执行环境",
+        "items": [
+          "文件系统",
+          "沙箱"
+        ]
+      },
+      {
+        "title": "上下文管理",
+        "items": [
+          "摘要",
+          "上下文卸载",
+          "记忆"
+        ]
+      },
+      {
+        "title": "任务委派",
+        "items": [
+          "Skills",
+          "子Agent"
+        ]
+      },
+      {
+        "title": "综合项目",
+        "items": [
+          "销售助手",
+          "本地部署"
+        ]
+      }
+    ],
+    "source": "https://academy.langchain.com/courses/foundation-introduction-to-deepagents",
+    "diagram_basis": "官方模块目录 · 中文概括与编辑归组"
+  },
+  {
+    "id": "langchain_observability_evaluations",
+    "title": "LangChain Academy：Introduction to Agent Observability & Evaluations",
+    "kind": "专题课程",
+    "basis": "按本地记录的官方课程主线顺序",
+    "source_url": "https://academy.langchain.com/courses/intro-to-langsmith",
+    "sections": [
+      {
+        "title": "运行观测",
+        "items": [
+          "运行追踪",
+          "失败定位"
+        ]
+      },
+      {
+        "title": "测试与评估",
+        "items": [
+          "数据集",
+          "评估器",
+          "实验结果"
+        ]
+      },
+      {
+        "title": "提示词开发",
+        "items": [
+          "提示词开发",
+          "版本比较"
+        ]
+      },
+      {
+        "title": "人工反馈",
+        "items": [
+          "成对比较",
+          "标注队列"
+        ]
+      },
+      {
+        "title": "生产观测",
+        "items": [
+          "在线评估",
+          "生产监控"
+        ]
+      }
+    ],
+    "source": "https://academy.langchain.com/courses/intro-to-langsmith",
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  },
+  {
+    "id": "langchain_ambient_agents",
+    "title": "LangChain Academy：Project — Ambient Agents with LangGraph",
+    "kind": "项目课",
+    "basis": "官方六模块顺序，按本地课程目录记录",
+    "source_url": "https://academy.langchain.com/courses/ambient-agents",
+    "sections": [
+      {
+        "title": "LangGraph基础",
+        "items": [
+          "图基础",
+          "状态与流程"
+        ]
+      },
+      {
+        "title": "构建Agent",
+        "items": [
+          "邮件管理助手",
+          "邮件处理"
+        ]
+      },
+      {
+        "title": "评测",
+        "items": [
+          "Agent评测",
+          "结果检查"
+        ]
+      },
+      {
+        "title": "人工介入",
+        "items": [
+          "人工检查",
+          "交接处理"
+        ]
+      },
+      {
+        "title": "记忆",
+        "items": [
+          "记忆管理",
+          "跨步骤上下文"
+        ]
+      },
+      {
+        "title": "部署",
+        "items": [
+          "应用部署"
+        ]
+      }
+    ],
+    "source": "https://academy.langchain.com/courses/ambient-agents",
+    "diagram_basis": "官方模块目录 · 中文概括与编辑归组"
+  }
+]

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<rect width="1920" height="1080" fill="#F4F6FA"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style>
+<text x="60" y="34" dominant-baseline="text-before-edge" font-size="23" fill="#53627B" font-weight="400">AGENT 学习资源 · 目录图</text>
+<text x="60" y="78" dominant-baseline="text-before-edge" font-size="46" fill="#162238" font-weight="700">OpenAI Building Agents 文档路线</text>
+<text x="60" y="145" dominant-baseline="text-before-edge" font-size="24" fill="#53627B" font-weight="400">文档路线  |  公开课程内容 · 核心主题归纳</text>
+<line x1="60" y1="208" x2="1860" y2="208" stroke="#C1CDE2" stroke-width="2"/>
+<line x1="351" y1="208" x2="351" y2="236" stroke="#C1CDE2" stroke-width="2"/>
+<rect x="60" y="236" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="80" y="258" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="90" y="263" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">1</text>
+<text x="133" y="263" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">认识Agent与选型</text>
+<rect x="84" y="327" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="318" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Agent概念</text>
+<rect x="84" y="373" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="364" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Responses API与Agents SDK</text>
+<rect x="84" y="419" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="410" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">选择构建抽象层</text>
+<line x1="959" y1="208" x2="959" y2="236" stroke="#C1CDE2" stroke-width="2"/>
+<rect x="668" y="236" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="688" y="258" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="698" y="263" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">2</text>
+<text x="741" y="263" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">定义Agent</text>
+<rect x="692" y="327" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="318" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Quickstart</text>
+<rect x="692" y="373" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="364" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">指令与模型</text>
+<rect x="692" y="419" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="410" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">工具和专家Agent</text>
+<line x1="1567" y1="208" x2="1567" y2="236" stroke="#C1CDE2" stroke-width="2"/>
+<rect x="1276" y="236" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="1296" y="258" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="1306" y="263" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">3</text>
+<text x="1349" y="263" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">运行与状态</text>
+<rect x="1300" y="327" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="318" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Runner循环</text>
+<rect x="1300" y="373" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="364" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">多轮会话</text>
+<rect x="1300" y="419" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="410" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">结果与状态延续</text>
+<rect x="1300" y="465" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="456" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">流式运行与中断</text>
+<rect x="60" y="615" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="80" y="637" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="90" y="642" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">4</text>
+<text x="133" y="642" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">编排协作</text>
+<rect x="84" y="706" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="697" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Handoff移交控制权</text>
+<rect x="84" y="752" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="743" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Agent作为工具</text>
+<rect x="84" y="798" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="789" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">管理器与专家协作</text>
+<rect x="668" y="615" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="688" y="637" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="698" y="642" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">5</text>
+<text x="741" y="642" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">安全边界与审批</text>
+<rect x="692" y="706" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="697" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">输入输出护栏</text>
+<rect x="692" y="752" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="743" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">工具校验</text>
+<rect x="692" y="798" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="789" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">人工审核与恢复</text>
+<rect x="1276" y="615" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="1296" y="637" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="1306" y="642" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">6</text>
+<text x="1349" y="642" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">观测、评估与模型</text>
+<rect x="1300" y="706" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="697" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">运行轨迹</text>
+<rect x="1300" y="752" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="743" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">工作流评估</text>
+<rect x="1300" y="798" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="789" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">模型与服务商选择</text>
+<text x="60" y="997" dominant-baseline="text-before-edge" font-size="18" fill="#53627B" font-weight="400">来源：https://developers.openai.com/tracks/building-agents</text>
+<text x="60" y="1033" dominant-baseline="text-before-edge" font-size="18" fill="#53627B" font-weight="400">中文标题用于视频展示；官方模块与编辑归纳以本图标记为准。资料核验：2026-10-03</text>
+</svg>

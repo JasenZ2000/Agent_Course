@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<rect width="1920" height="1080" fill="#F4F6FA"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style>
+<text x="60" y="34" dominant-baseline="text-before-edge" font-size="23" fill="#53627B" font-weight="400">AGENT 学习资源 · 目录图</text>
+<text x="60" y="78" dominant-baseline="text-before-edge" font-size="46" fill="#162238" font-weight="700">NVIDIA DLI：Building Agentic AI Applications with LLMs</text>
+<text x="60" y="145" dominant-baseline="text-before-edge" font-size="24" fill="#53627B" font-weight="400">Agentic AI课程  |  简介主题图 · 官方逐课目录未获取</text>
+<line x1="60" y1="208" x2="1860" y2="208" stroke="#C1CDE2" stroke-width="2"/>
+<line x1="960" y1="208" x2="960" y2="236" stroke="#C1CDE2" stroke-width="2"/>
+<rect x="60" y="236" width="1800" height="732" rx="16" fill="#FFFFFF"/>
+<rect x="80" y="258" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="90" y="263" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">1</text>
+<text x="133" y="263" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">已核实的课程简介</text>
+<rect x="84" y="327" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="318" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">使用LangGraph构建Agent</text>
+<rect x="84" y="373" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="364" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">集成NVIDIA NIM</text>
+<rect x="84" y="419" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="410" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">长程推理</text>
+<rect x="84" y="465" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="456" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">内容管理</text>
+<rect x="84" y="511" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="502" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">实时操作型Agent</text>
+<text x="60" y="997" dominant-baseline="text-before-edge" font-size="18" fill="#53627B" font-weight="400">来源：https://www.nvidia.com/en-us/learn/learning-path/generative-ai-llm/</text>
+<text x="60" y="1033" dominant-baseline="text-before-edge" font-size="18" fill="#53627B" font-weight="400">中文标题用于视频展示；官方模块与编辑归纳以本图标记为准。资料核验：2026-10-03</text>
+</svg>

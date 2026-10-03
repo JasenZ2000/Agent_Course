@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<rect width="1920" height="1080" fill="#F4F6FA"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style>
+<text x="60" y="34" dominant-baseline="text-before-edge" font-size="23" fill="#53627B" font-weight="400">AGENT 学习资源 · 目录图</text>
+<text x="60" y="78" dominant-baseline="text-before-edge" font-size="46" fill="#162238" font-weight="700">Hugging Face AI Agents Course</text>
+<text x="60" y="145" dominant-baseline="text-before-edge" font-size="24" fill="#53627B" font-weight="400">课程  |  官方单元目录 · 中文概括与编辑归组</text>
+<line x1="60" y1="208" x2="1860" y2="208" stroke="#C1CDE2" stroke-width="2"/>
+<line x1="351" y1="208" x2="351" y2="236" stroke="#C1CDE2" stroke-width="2"/>
+<rect x="60" y="236" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="80" y="258" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="90" y="263" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">1</text>
+<text x="133" y="263" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">课程导览</text>
+<rect x="84" y="327" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="318" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">学习路径与认证</text>
+<rect x="84" y="373" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="364" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">社区与课程资源</text>
+<line x1="959" y1="208" x2="959" y2="236" stroke="#C1CDE2" stroke-width="2"/>
+<rect x="668" y="236" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="688" y="258" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="698" y="263" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">2</text>
+<text x="741" y="263" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">Agent基础</text>
+<rect x="692" y="327" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="318" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Agent概念与决策</text>
+<rect x="692" y="373" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="364" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">规划与推理</text>
+<rect x="692" y="419" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="410" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">LLM与消息</text>
+<rect x="692" y="465" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="456" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">工具和行动</text>
+<rect x="692" y="511" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="502" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">思考—行动—观察循环</text>
+<line x1="1567" y1="208" x2="1567" y2="236" stroke="#C1CDE2" stroke-width="2"/>
+<rect x="1276" y="236" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="1296" y="258" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="1306" y="263" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">3</text>
+<text x="1349" y="263" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">搭建Agent</text>
+<rect x="1300" y="327" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="318" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">使用smolagents</text>
+<rect x="1300" y="373" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="364" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">构建Alfred</text>
+<rect x="1300" y="419" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="410" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">发布到Hugging Face Spaces</text>
+<rect x="60" y="615" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="80" y="637" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="90" y="642" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">4</text>
+<text x="133" y="642" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">框架实践</text>
+<rect x="84" y="706" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="697" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">smolagents</text>
+<rect x="84" y="752" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="743" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">LlamaIndex</text>
+<rect x="84" y="798" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="104" y="789" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">LangGraph</text>
+<rect x="668" y="615" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="688" y="637" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="698" y="642" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">5</text>
+<text x="741" y="642" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">应用与结课项目</text>
+<rect x="692" y="706" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="697" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">选择真实问题</text>
+<rect x="692" y="752" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="743" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">构建并评估Agent</text>
+<rect x="692" y="798" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="789" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">GAIA基准挑战</text>
+<rect x="692" y="844" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="712" y="835" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">提交成绩与结课认证</text>
+<rect x="1276" y="615" width="582" height="353" rx="16" fill="#FFFFFF"/>
+<rect x="1296" y="637" width="38" height="38" rx="9" fill="#275DCC"/>
+<text x="1306" y="642" dominant-baseline="text-before-edge" font-size="22" fill="#FFFFFF" font-weight="700">6</text>
+<text x="1349" y="642" dominant-baseline="text-before-edge" font-size="27" fill="#162238" font-weight="700">补充单元</text>
+<rect x="1300" y="706" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="697" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">函数调用微调</text>
+<rect x="1300" y="752" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="743" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">Agent观测与评测</text>
+<rect x="1300" y="798" width="6" height="6" rx="2" fill="#275DCC"/>
+<text x="1320" y="789" dominant-baseline="text-before-edge" font-size="26" fill="#162238" font-weight="400">游戏Agent：Pokemon</text>
+<text x="60" y="997" dominant-baseline="text-before-edge" font-size="18" fill="#53627B" font-weight="400">来源：https://huggingface.co/learn/agents-course/en/unit0/introduction</text>
+<text x="60" y="1033" dominant-baseline="text-before-edge" font-size="18" fill="#53627B" font-weight="400">中文标题用于视频展示；官方模块与编辑归纳以本图标记为准。资料核验：2026-10-03</text>
+</svg>

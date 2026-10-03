@@ -1,0 +1,34 @@
+# Berkeley：LLM Agents Spring 2025
+
+[返回总目录](../../README.md) · [官网](https://rdi.berkeley.edu/llm-agents-mooc/sp25) · [学后评价](review.md)
+
+状态：待开始个人学习。当前内容为资料整理，不代表课程已完成。
+
+## 目录依据
+
+已核实资料确认官方学期课程页与课程主题，但未提供逐讲目录或同等深度审阅；仅按页面级主题绘制。
+
+![课程目录图](../../assets/course_maps/png/berkeley-llm-agents-spring-2025.png)
+
+[可编辑 SVG](../../assets/course_maps/svg/berkeley-llm-agents-spring-2025.svg)
+
+## 内容地图
+
+### 课程主题（页面级）
+
+- 大型语言模型Agent专题
+- 未核实该学期逐讲顺序与项目细节
+
+## 相关研究
+
+- [研究分析](../../research/agent_courses/providers/berkeley/analysis.md)（同一提供方可能涵盖多项资源）
+- [详细章节地图](../../research/agent_courses/providers/berkeley/curriculum.md)（同一提供方可能涵盖多项资源）
+- [证据与获取范围](../../research/agent_courses/providers/berkeley/evidence.md)（同一提供方可能涵盖多项资源）
+
+## 我的学习记录
+
+- [章节笔记](notes/README.md)
+- [实践与 Demo](practice/README.md)
+- [学后评价](review.md)
+
+可以按 `notes/01-主题.md` 新建笔记；每次记录原课链接、理解、疑问与验证结果。

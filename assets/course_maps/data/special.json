@@ -1,0 +1,340 @@
+[
+  {
+    "id": "huggingface-mcp",
+    "title": "Hugging Face MCP Course",
+    "kind": "协议课程",
+    "basis": "依据官方英文目录归纳，覆盖 Unit 0 至 Unit 3.1；记录确认目录与项目方向，未逐课评测。",
+    "source": "https://huggingface.co/learn/mcp-course/en/unit0/introduction",
+    "sections": [
+      {
+        "title": "协议基础",
+        "items": [
+          "课程导览",
+          "MCP术语与架构",
+          "通信与协议能力",
+          "SDK、客户端与服务端",
+          "单元测验"
+        ]
+      },
+      {
+        "title": "应用集成",
+        "items": [
+          "Gradio服务与客户端",
+          "Continue客户端",
+          "Tiny Agents",
+          "本地加速路线"
+        ]
+      },
+      {
+        "title": "开发工作流",
+        "items": [
+          "自定义工作流服务器",
+          "GitHub Actions",
+          "Slack通知",
+          "PR Agent问答",
+          "在Hub构建PR Agent"
+        ]
+      }
+    ],
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  },
+  {
+    "id": "nvidia-building-rag-agents",
+    "title": "NVIDIA DLI：Building RAG Agents with LLMs",
+    "kind": "RAG实作课程",
+    "basis": "依据NVIDIA官方课程页与目录审阅记录整理8小时模块；未运行课程代码。",
+    "source": "https://www.nvidia.com/en-au/training/instructor-led-workshops/building-rag-agents-with-llms/",
+    "sections": [
+      {
+        "title": "模型与应用服务",
+        "items": [
+          "LLM推理接口",
+          "LangChain与LCEL",
+          "Gradio与LangServe"
+        ]
+      },
+      {
+        "title": "对话与知识处理",
+        "items": [
+          "对话状态与slot filling",
+          "长文切分与摘要",
+          "Embedding与输入护栏"
+        ]
+      },
+      {
+        "title": "检索与评测",
+        "items": [
+          "向量数据库RAG",
+          "LLM-as-a-Judge评测",
+          "研究论文集问答RAG Agent"
+        ]
+      }
+    ],
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  },
+  {
+    "id": "nvidia-building-agentic-ai-applications",
+    "title": "NVIDIA DLI：Building Agentic AI Applications with LLMs",
+    "kind": "Agentic AI课程",
+    "basis": "官方学习路径与证书备考路径可确认课程存在；课程简介提及LangGraph和NVIDIA NIM。详情页无逐节目录，主题仅按已核实简介归纳。",
+    "source": "https://www.nvidia.com/en-us/learn/learning-path/generative-ai-llm/",
+    "sections": [
+      {
+        "title": "已核实的课程简介",
+        "items": [
+          "使用LangGraph构建Agent",
+          "集成NVIDIA NIM",
+          "长程推理",
+          "内容管理",
+          "实时操作型Agent"
+        ]
+      }
+    ],
+    "diagram_basis": "简介主题图 · 官方逐课目录未获取"
+  },
+  {
+    "id": "ibm-agentic-ai-in-practice",
+    "title": "IBM：Agentic AI in Practice",
+    "kind": "连续学习路径",
+    "basis": "依据IBM Training公开路径目录归纳：1门课程、9个教程、四段；未核实统一先修条件与各教程运行环境。",
+    "source": "https://www.ibm.com/training/learning-path/agentic-ai-in-practice-1058",
+    "sections": [
+      {
+        "title": "基础与框架",
+        "items": [
+          "Agent基础",
+          "CrewAI与LangChain"
+        ]
+      },
+      {
+        "title": "工具与推理",
+        "items": [
+          "自定义工具",
+          "数学助手工具调用",
+          "ReAct Agent"
+        ]
+      },
+      {
+        "title": "工作流",
+        "items": [
+          "LangGraph工作流与模式"
+        ]
+      },
+      {
+        "title": "领域应用",
+        "items": [
+          "CrewAI与Gradio多Agent",
+          "医疗AG2/AutoGen",
+          "PydanticAI客服Agent",
+          "LangGraph与Docling Agentic RAG"
+        ]
+      }
+    ],
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  },
+  {
+    "id": "dlai-ai-agents-in-langgraph",
+    "title": "DeepLearning.AI：AI Agents in LangGraph",
+    "kind": "短课",
+    "basis": "依据官方课程目录与简介归纳；课程页列中级、9节视频和6个代码示例，未运行练习。",
+    "source": "https://www.deeplearning.ai/courses/ai-agents-in-langgraph",
+    "sections": [
+      {
+        "title": "Agent与图流程",
+        "items": [
+          "从Python和LLM构建Agent",
+          "LangGraph组件",
+          "Agentic Search"
+        ]
+      },
+      {
+        "title": "状态与交互控制",
+        "items": [
+          "跨会话持久化与恢复",
+          "流式输出",
+          "人机协作"
+        ]
+      },
+      {
+        "title": "综合项目",
+        "items": [
+          "Essay Writer研究与写作流程"
+        ]
+      }
+    ],
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  },
+  {
+    "id": "dlai-multi-ai-agent-systems-crewai",
+    "title": "DeepLearning.AI：Multi AI Agent Systems with crewAI",
+    "kind": "短课",
+    "basis": "依据官方课程目录、简介与代码示例方向归纳；课程页列初级、18节视频和7个代码示例，未运行练习。",
+    "source": "https://www.deeplearning.ai/courses/multi-ai-agent-systems-with-crewai",
+    "sections": [
+      {
+        "title": "角色与协作",
+        "items": [
+          "Agent角色、目标与工具",
+          "多Agent分工协作",
+          "顺序、并行与层级流程"
+        ]
+      },
+      {
+        "title": "记忆与可靠性",
+        "items": [
+          "短期、长期与共享记忆",
+          "错误处理与护栏"
+        ]
+      },
+      {
+        "title": "业务示例",
+        "items": [
+          "文章研究与写作",
+          "客服自动化",
+          "客户拓展与活动策划",
+          "财务分析与求职材料定制"
+        ]
+      }
+    ],
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  },
+  {
+    "id": "dlai-building-coding-agents-tool-execution",
+    "title": "DeepLearning.AI：Building Coding Agents with Tool Execution",
+    "kind": "短课",
+    "basis": "依据官方课程目录与简介归纳；课程页列中级、9节视频和5个代码示例，未运行项目。",
+    "source": "https://www.deeplearning.ai/courses/building-coding-agents-with-tool-execution",
+    "sections": [
+      {
+        "title": "代码执行循环",
+        "items": [
+          "生成并执行Python代码",
+          "读取错误并继续尝试",
+          "文件管理"
+        ]
+      },
+      {
+        "title": "隔离运行环境",
+        "items": [
+          "本地、容器与云沙箱",
+          "使用E2B隔离代码执行"
+        ]
+      },
+      {
+        "title": "项目实践",
+        "items": [
+          "Pandas分析CSV并用Gradio问答",
+          "沙箱中编辑多文件并生成Next.js应用",
+          "用运行时摘要管理长上下文"
+        ]
+      }
+    ],
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  },
+  {
+    "id": "berkeley-llm-agents-fall-2024",
+    "title": "Berkeley：LLM Agents Fall 2024",
+    "kind": "学期课程主题图",
+    "basis": "依据F24官方大纲的12场公开讲座顺序压缩归纳；不同学期不合并。",
+    "source": "https://rdi.berkeley.edu/llm-agents-mooc/f24",
+    "sections": [
+      {
+        "title": "推理与Agent基础",
+        "items": [
+          "LLM推理",
+          "Agent历史与概览",
+          "ReAct与WebShop",
+          "AutoGen框架与多模态知识助手"
+        ]
+      },
+      {
+        "title": "企业与开发工作流",
+        "items": [
+          "Grounding与RAG",
+          "Compound AI Systems与DSPy",
+          "软件开发Agent：SWE-agent与OpenHands",
+          "WorkArena与TapeAgents"
+        ]
+      },
+      {
+        "title": "规划、具身与评测",
+        "items": [
+          "神经符号决策与规划",
+          "GR00T与机器人Agent",
+          "开源、科学与能力评测",
+          "Agent安全、政策与可信证据"
+        ]
+      }
+    ],
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  },
+  {
+    "id": "berkeley-llm-agents-spring-2025",
+    "title": "Berkeley：LLM Agents Spring 2025",
+    "kind": "学期课程主题图",
+    "basis": "已核实资料确认官方学期课程页与课程主题，但未提供逐讲目录或同等深度审阅；仅按页面级主题绘制。",
+    "source": "https://rdi.berkeley.edu/llm-agents-mooc/sp25",
+    "sections": [
+      {
+        "title": "课程主题（页面级）",
+        "items": [
+          "大型语言模型Agent专题",
+          "未核实该学期逐讲顺序与项目细节"
+        ]
+      }
+    ],
+    "diagram_basis": "公开内容主题归纳 · 非官方逐课目录"
+  },
+  {
+    "id": "berkeley-agentic-ai-fall-2025",
+    "title": "Berkeley：Agentic AI Fall 2025",
+    "kind": "学期课程主题图",
+    "basis": "已核实资料确认官方学期课程页与课程主题，但未提供逐讲目录或同等深度审阅；仅按页面级主题绘制。",
+    "source": "https://rdi.berkeley.edu/agentic-ai/f25",
+    "sections": [
+      {
+        "title": "课程主题（页面级）",
+        "items": [
+          "Agentic AI专题",
+          "未核实该学期逐讲顺序与项目细节"
+        ]
+      }
+    ],
+    "diagram_basis": "公开内容主题归纳 · 非官方逐课目录"
+  },
+  {
+    "id": "cmu-11768-ai-agents-fall-2026",
+    "title": "CMU 11-768：AI Agents Fall 2026",
+    "kind": "研究生课程主题图",
+    "basis": "依据课程站公开安排、主题与作业说明归纳；课程于2026年秋季进行中，课堂和作业访问以课程站为准。",
+    "source": "https://www.cmu-agents.com/",
+    "sections": [
+      {
+        "title": "Agent核心主题",
+        "items": [
+          "工具使用",
+          "长上下文管理",
+          "规划",
+          "记忆",
+          "Agent训练",
+          "安全与人机交互"
+        ]
+      },
+      {
+        "title": "工程作业",
+        "items": [
+          "构建Coding Agent harness",
+          "设计Agent评测框架",
+          "实现Agent训练方法"
+        ]
+      },
+      {
+        "title": "研究实践",
+        "items": [
+          "学期研究项目"
+        ]
+      }
+    ],
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  }
+]

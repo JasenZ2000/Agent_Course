@@ -1,0 +1,499 @@
+[
+  {
+    "id": "datawhale_hello_agents",
+    "title": "Datawhale《从零开始构建智能体》",
+    "kind": "教材",
+    "basis": "官方目录（16章按原五部分收录）",
+    "source": "https://github.com/datawhalechina/hello-agents",
+    "sections": [
+      {
+        "title": "智能体与模型基础",
+        "items": [
+          "初识智能体",
+          "智能体发展史",
+          "大语言模型基础"
+        ]
+      },
+      {
+        "title": "构建智能体",
+        "items": [
+          "经典范式",
+          "低代码平台",
+          "框架实践",
+          "构建自己的Agent框架"
+        ]
+      },
+      {
+        "title": "高级知识扩展",
+        "items": [
+          "记忆与检索",
+          "上下文工程",
+          "通信协议",
+          "Agentic-RL",
+          "性能评估"
+        ]
+      },
+      {
+        "title": "综合案例",
+        "items": [
+          "智能旅行助手",
+          "自动化深度研究",
+          "赛博小镇"
+        ]
+      },
+      {
+        "title": "毕业设计",
+        "items": [
+          "选题、实现与项目交付"
+        ]
+      }
+    ],
+    "diagram_basis": "官方模块目录 · 中文概括与编辑归组"
+  },
+  {
+    "id": "huggingface_agents",
+    "title": "Hugging Face AI Agents Course",
+    "kind": "课程",
+    "basis": "官方单元目录 · 基础、框架、项目与补充单元的中文归组",
+    "source": "https://huggingface.co/learn/agents-course/en/unit0/introduction",
+    "sections": [
+      {
+        "title": "课程导览",
+        "items": [
+          "学习路径与认证",
+          "社区与课程资源"
+        ]
+      },
+      {
+        "title": "Agent基础",
+        "items": [
+          "Agent概念与决策",
+          "规划与推理",
+          "LLM与消息",
+          "工具和行动",
+          "思考—行动—观察循环"
+        ]
+      },
+      {
+        "title": "搭建Agent",
+        "items": [
+          "使用smolagents",
+          "构建Alfred",
+          "发布到Hugging Face Spaces"
+        ]
+      },
+      {
+        "title": "框架实践",
+        "items": [
+          "smolagents",
+          "LlamaIndex",
+          "LangGraph"
+        ]
+      },
+      {
+        "title": "应用与结课项目",
+        "items": [
+          "选择真实问题",
+          "构建并评估Agent",
+          "GAIA基准挑战",
+          "提交成绩与结课认证"
+        ]
+      },
+      {
+        "title": "补充单元",
+        "items": [
+          "函数调用微调",
+          "Agent观测与评测",
+          "游戏Agent：Pokemon"
+        ]
+      }
+    ],
+    "diagram_basis": "官方单元目录 · 中文概括与编辑归组"
+  },
+  {
+    "id": "microsoft_ai_agents",
+    "title": "Microsoft AI Agents for Beginners",
+    "kind": "课程",
+    "basis": "官方目录（连续课次编辑归组，组内保持课序）",
+    "source": "https://github.com/microsoft/ai-agents-for-beginners",
+    "sections": [
+      {
+        "title": "起步与设计",
+        "items": [
+          "课程设置",
+          "智能体入门",
+          "框架概览",
+          "设计模式"
+        ]
+      },
+      {
+        "title": "工具与可信检索",
+        "items": [
+          "工具使用",
+          "Agentic RAG",
+          "可信智能体"
+        ]
+      },
+      {
+        "title": "规划与协作",
+        "items": [
+          "规划设计",
+          "多智能体",
+          "元认知"
+        ]
+      },
+      {
+        "title": "生产与上下文",
+        "items": [
+          "生产环境",
+          "Agent协议",
+          "上下文工程",
+          "智能体记忆"
+        ]
+      },
+      {
+        "title": "框架与电脑操作",
+        "items": [
+          "Microsoft Agent Framework",
+          "Computer Use Agents"
+        ]
+      },
+      {
+        "title": "部署、安全与本地运行",
+        "items": [
+          "可扩展部署",
+          "本地智能体",
+          "智能体安全"
+        ]
+      }
+    ],
+    "diagram_basis": "官方模块目录 · 中文概括与编辑归组"
+  },
+  {
+    "id": "anthropic_platform_101",
+    "title": "Anthropic Claude Platform 101",
+    "kind": "课程",
+    "basis": "官方目录（连续课次编辑归组，组内保持课序）",
+    "source": "https://academy.claude.com/courses/claude-platform-101",
+    "sections": [
+      {
+        "title": "平台与模型",
+        "items": [
+          "Claude平台",
+          "首次API调用",
+          "选择模型"
+        ]
+      },
+      {
+        "title": "Agent循环与工具",
+        "items": [
+          "Agent循环",
+          "工具使用",
+          "扩展思考",
+          "内置工具"
+        ]
+      },
+      {
+        "title": "上下文与扩展",
+        "items": [
+          "Skills",
+          "MCP",
+          "上下文管理"
+        ]
+      },
+      {
+        "title": "托管Agent与开发",
+        "items": [
+          "托管Agent概念",
+          "构建托管Agent",
+          "使用Claude Code构建"
+        ]
+      }
+    ],
+    "diagram_basis": "官方模块目录 · 中文概括与编辑归组"
+  },
+  {
+    "id": "anthropic_claude_api",
+    "title": "Anthropic Building with the Claude API",
+    "kind": "课程",
+    "basis": "官方目录（67个教学页按主题编辑归组，组内依课序）",
+    "source": "https://academy.claude.com/courses/building-with-the-claude-api",
+    "sections": [
+      {
+        "title": "API与提示基础",
+        "items": [
+          "请求流程与API密钥",
+          "首次请求与多轮消息",
+          "系统提示与提示模板",
+          "模型参数与生成控制",
+          "流式响应与结构化数据"
+        ]
+      },
+      {
+        "title": "提示评测",
+        "items": [
+          "生成测试数据集",
+          "模型评分",
+          "代码评分与人工评分",
+          "迭代优化提示"
+        ]
+      },
+      {
+        "title": "工具与Agent循环",
+        "items": [
+          "定义工具函数",
+          "工具调用与结果回传",
+          "多工具和错误处理",
+          "内置搜索与文本编辑",
+          "Agent与可组合工具"
+        ]
+      },
+      {
+        "title": "检索与上下文",
+        "items": [
+          "RAG与文档切分",
+          "Embedding与检索",
+          "BM25词法搜索",
+          "多索引与RRF",
+          "缓存及多模态内容"
+        ]
+      },
+      {
+        "title": "MCP与应用集成",
+        "items": [
+          "MCP概念与客户端",
+          "实现工具、资源和提示",
+          "Inspector调试",
+          "连接Claude应用与MCP服务",
+          "Claude Code开发流程"
+        ]
+      },
+      {
+        "title": "工作流与Agent设计",
+        "items": [
+          "并行与链式工作流",
+          "路由工作流",
+          "环境检查",
+          "工作流与Agent取舍"
+        ]
+      }
+    ],
+    "diagram_basis": "官方模块目录 · 中文概括与编辑归组"
+  },
+  {
+    "id": "anthropic_mcp_course",
+    "title": "Anthropic Introduction to Model Context Protocol",
+    "kind": "课程",
+    "basis": "官方目录（连续课次编辑归组，组内保持课序）",
+    "source": "https://academy.claude.com/courses/introduction-to-model-context-protocol",
+    "sections": [
+      {
+        "title": "MCP与客户端",
+        "items": [
+          "MCP解决的问题",
+          "MCP客户端与消息"
+        ]
+      },
+      {
+        "title": "工具服务",
+        "items": [
+          "定义MCP工具",
+          "使用Server Inspector",
+          "实现客户端并调用工具"
+        ]
+      },
+      {
+        "title": "资源",
+        "items": [
+          "定义直接与模板资源",
+          "读取资源与处理内容"
+        ]
+      },
+      {
+        "title": "提示与复习",
+        "items": [
+          "定义提示模板",
+          "在客户端调用提示",
+          "MCP原语复习与测验"
+        ]
+      }
+    ],
+    "diagram_basis": "官方模块目录 · 中文概括与编辑归组"
+  },
+  {
+    "id": "openai_building_agents",
+    "title": "OpenAI Building Agents 文档路线",
+    "kind": "文档路线",
+    "basis": "依据公开官方材料整理的主题图（按建议阅读顺序编辑归组）",
+    "source": "https://developers.openai.com/tracks/building-agents",
+    "sections": [
+      {
+        "title": "认识Agent与选型",
+        "items": [
+          "Agent概念",
+          "Responses API与Agents SDK",
+          "选择构建抽象层"
+        ]
+      },
+      {
+        "title": "定义Agent",
+        "items": [
+          "Quickstart",
+          "指令与模型",
+          "工具和专家Agent"
+        ]
+      },
+      {
+        "title": "运行与状态",
+        "items": [
+          "Runner循环",
+          "多轮会话",
+          "结果与状态延续",
+          "流式运行与中断"
+        ]
+      },
+      {
+        "title": "编排协作",
+        "items": [
+          "Handoff移交控制权",
+          "Agent作为工具",
+          "管理器与专家协作"
+        ]
+      },
+      {
+        "title": "安全边界与审批",
+        "items": [
+          "输入输出护栏",
+          "工具校验",
+          "人工审核与恢复"
+        ]
+      },
+      {
+        "title": "观测、评估与模型",
+        "items": [
+          "运行轨迹",
+          "工作流评估",
+          "模型与服务商选择"
+        ]
+      }
+    ],
+    "diagram_basis": "公开课程内容 · 核心主题归纳"
+  },
+  {
+    "id": "langgraph_fundamentals",
+    "title": "LangChain Academy Introduction to LangGraph",
+    "kind": "课程",
+    "basis": "官方目录（相邻模块编辑归组，模块内保持课序）",
+    "source": "https://academy.langchain.com/courses/intro-to-langgraph",
+    "sections": [
+      {
+        "title": "图与Agent入门",
+        "items": [
+          "课程准备与动机",
+          "简单图与Studio",
+          "Chain",
+          "Router",
+          "Agent与记忆"
+        ]
+      },
+      {
+        "title": "状态与短期记忆",
+        "items": [
+          "State Schema",
+          "State Reducers",
+          "多种Schema",
+          "消息裁剪与过滤",
+          "摘要记忆聊天机器人",
+          "外部记忆聊天机器人"
+        ]
+      },
+      {
+        "title": "交互与人工介入",
+        "items": [
+          "流式输出",
+          "断点",
+          "编辑状态与人工反馈",
+          "动态断点",
+          "时间旅行"
+        ]
+      },
+      {
+        "title": "构建助手",
+        "items": [
+          "并行化",
+          "子图",
+          "Map-Reduce",
+          "研究助手"
+        ]
+      },
+      {
+        "title": "长期记忆与部署",
+        "items": [
+          "短期与长期记忆",
+          "LangGraph Store",
+          "记忆Profile与Collection",
+          "长期记忆Agent",
+          "部署、连接与会话管理"
+        ]
+      }
+    ],
+    "diagram_basis": "官方模块目录 · 中文概括与编辑归组"
+  },
+  {
+    "id": "deeplearning_ai_agentic_ai",
+    "title": "吴恩达 Agentic AI",
+    "kind": "课程",
+    "basis": "官方五模块顺序；依据公开目录与课文归纳核心主题，非全部31节逐课清单",
+    "source": "https://www.deeplearning.ai/courses/agentic-ai",
+    "sections": [
+      {
+        "title": "1. Agent工作流入门",
+        "items": [
+          "什么是Agentic AI",
+          "自主程度、优势与应用",
+          "直接生成与多步工作流",
+          "任务分解与规划",
+          "Agent评测与设计模式"
+        ]
+      },
+      {
+        "title": "2. 反思设计模式",
+        "items": [
+          "生成、检查与修订",
+          "评估反思带来的变化",
+          "利用外部执行反馈"
+        ]
+      },
+      {
+        "title": "3. 工具使用",
+        "items": [
+          "工具定义与参数格式",
+          "创建工具与回填结果",
+          "代码执行",
+          "MCP与外部工具连接"
+        ]
+      },
+      {
+        "title": "4. 开发、评测与优化",
+        "items": [
+          "端到端与组件评测",
+          "错误分析与失败归因",
+          "评测样例与评分方法",
+          "图表生成工作流",
+          "延迟与成本优化",
+          "开发迭代"
+        ]
+      },
+      {
+        "title": "5. 高自主Agent模式",
+        "items": [
+          "Agent设计模式组合",
+          "多Agent工作流",
+          "多Agent通信方式",
+          "课程总结"
+        ]
+      }
+    ],
+    "diagram_basis": "官方五模块 · 核心主题中文归纳"
+  }
+]
