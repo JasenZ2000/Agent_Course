@@ -1,81 +1,9 @@
 {
-  "datawhale_hello_agents": {
-    "video": "未统一确认配套视频",
-    "body": "完整中文教材已审阅",
-    "code": "公开仓库与正文代码",
-    "practice": "章节实践、多个项目；毕业设计指导，统一评分标准未确认"
-  },
-  "deeplearning_ai_agentic_ai": {
-    "video": "课程视频；未全部观看",
-    "body": "31 份公开转录已审阅",
-    "code": "课程宣称代码示例；Notebook 未核验",
-    "practice": "课程宣称练习/示例；完整作业及评分未核验"
-  },
-  "huggingface_agents": {
-    "video": "部分配套视频入口",
-    "body": "单元正文已审阅",
-    "code": "公开 Notebook/代码与项目入口",
-    "practice": "练习、任务基准与项目；评测范围见研究记录"
-  },
-  "google_agents_2025": {
-    "video": "历史活动回放入口",
-    "body": "白皮书、活动材料入口",
-    "code": "公开 codelab/Notebook 入口",
-    "practice": "五天实践与历史 capstone；提交窗口已结束"
-  },
-  "google_agents_2026_vibecoding": {
-    "video": "活动视频/直播入口，逐项未审阅",
-    "body": "2026 活动目录/材料入口",
-    "code": "codelab 入口；内容未逐例核验",
-    "practice": "规格、评测、安全与交付实践；完成度未核验"
-  },
-  "vanderbilt_python_agent_implementation": {
-    "video": "Coursera 课程入口",
-    "body": "公开简介；完整讲义未获取",
-    "code": "实现课程宣称 Python 实践；文件未核验",
-    "practice": "平台内练习/作业细目未核验"
-  },
-  "vanderbilt_prompt_engineering": {
-    "video": "Coursera 课程入口",
-    "body": "公开简介；完整讲义未获取",
-    "code": "不以代码实现为主；材料未核验",
-    "practice": "提示实践；完整作业与评分未核验"
-  },
-  "vanderbilt_python_agent_architecture": {
-    "video": "Coursera 课程入口",
-    "body": "公开简介；完整讲义未获取",
-    "code": "Python 架构主题；文件未核验",
-    "practice": "完整实践与评分未核验"
-  },
-  "microsoft_ai_agents": {
-    "video": "1–13 课视频链接；14–18 未确认",
-    "body": "18 课正文已审阅",
-    "code": "公开仓库与 Notebook",
-    "practice": "章节代码练习与案例；统一毕业项目未确认"
-  },
-  "generic_agent": {
-    "video": "未确认统一配套视频",
-    "body": "公开中文指南/目录",
-    "code": "公开项目/示例入口，未完整运行",
-    "practice": "13 章与案例；独立评分体系未确认"
-  },
-  "freecodecamp_agentic_ai": {
-    "video": "公开长视频；未全部观看",
-    "body": "章节说明；完整转录未获取",
-    "code": "公开配套代码仓库",
-    "practice": "视频带项目；无统一评分确认"
-  },
-  "langgraph_fundamentals": {
-    "video": "Academy 课程视频入口",
-    "body": "目录/课程说明；Notebook 已审阅",
-    "code": "公开 Notebook 仓库",
-    "practice": "模块练习与研究助手；部署模块，评分未确认"
-  },
-  "langchain_ambient_agents": {
-    "video": "Academy 项目课视频入口",
-    "body": "6 模块目录，完整正文未获取",
-    "code": "配套项目入口；未逐例审阅",
-    "practice": "邮件助手项目；环境及评价细则未验证"
+  "anthropic_claude_api": {
+    "video": "课程页面视频入口",
+    "body": "67 个公开教学页已获取",
+    "code": "正文有代码示例；本轮未逐例验证",
+    "practice": "测验/工作流案例；统一毕业项目未确认"
   },
   "anthropic_platform_101": {
     "video": "课程页面视频入口",
@@ -83,77 +11,17 @@
     "code": "正文有示例；独立配套仓库未确认",
     "practice": "测验页面存在，内容未完整获取；独立项目未确认"
   },
-  "anthropic_claude_api": {
-    "video": "课程页面视频入口",
-    "body": "67 个公开教学页已获取",
-    "code": "正文有代码示例；本轮未逐例验证",
-    "practice": "测验/工作流案例；统一毕业项目未确认"
-  },
   "anthropic_mcp_course": {
     "video": "课程页面视频入口",
     "body": "10 个公开教学页已获取",
     "code": "正文客户端/服务器示例；未运行验证",
     "practice": "示例练习；独立项目及评分未确认"
   },
-  "openai_building_agents": {
-    "video": "此文档路线未确认统一视频",
-    "body": "官方指南正文已获取",
-    "code": "官方文档示例；公开 SDK",
-    "practice": "本仓库实验为自行设计，不算官方作业"
-  },
-  "langchain_deep_agents": {
-    "video": "Academy 课程视频入口",
-    "body": "5 模块目录，完整正文未获取",
-    "code": "公开 lca-deepagents 仓库入口",
-    "practice": "项目/实践入口；未完成验证"
-  },
-  "langchain_observability_evaluations": {
-    "video": "Academy 课程视频入口",
-    "body": "官方详细目录；未完课",
-    "code": "示例/配套代码入口；未逐例审阅",
-    "practice": "数据集、评测实验、反馈实践；未完成验证"
-  },
-  "huggingface-mcp": {
-    "video": "部分演示/配套视频入口",
-    "body": "公开单元正文与目录入口",
-    "code": "公开课程仓库/示例入口",
-    "practice": "客户端/服务器实践与应用；未完整核验"
-  },
-  "nvidia-building-rag-agents": {
-    "video": "自学/讲师形式依具体版本",
-    "body": "公开模块介绍，完整讲义未获取",
-    "code": "课程宣称云端实验环境；公开代码未确认",
-    "practice": "RAG 实践；账号及课程环境需要另行核验"
-  },
-  "nvidia-building-agentic-ai-applications": {
-    "video": "课程存在；具体形式未核验",
-    "body": "简介；逐节目录不足",
+  "berkeley-agentic-ai-fall-2025": {
+    "video": "课程/讲座入口；逐课未核验",
+    "body": "课程页面，细目核验不足",
     "code": "未确认",
     "practice": "未确认"
-  },
-  "ibm-agentic-ai-in-practice": {
-    "video": "学习路径内教程，形式逐项未核验",
-    "body": "历史目录快照；当前入口可能调整",
-    "code": "教程代码入口未逐项确认",
-    "practice": "多框架教程；完整项目/评分未核验"
-  },
-  "dlai-ai-agents-in-langgraph": {
-    "video": "短课视频入口",
-    "body": "公开目录；完整正文未获取",
-    "code": "平台 Code Example 标识；文件未核验",
-    "practice": "短课实现实践；作业反馈未核验"
-  },
-  "dlai-multi-ai-agent-systems-crewai": {
-    "video": "短课视频入口",
-    "body": "公开目录；完整正文未获取",
-    "code": "平台 Code Example 标识；文件未核验",
-    "practice": "多 Agent 案例；评分未核验"
-  },
-  "dlai-building-coding-agents-tool-execution": {
-    "video": "短课视频入口",
-    "body": "公开目录；完整正文未获取",
-    "code": "平台 Code Example 标识；文件未核验",
-    "practice": "代码执行/开发案例；评分未核验"
   },
   "berkeley-llm-agents-fall-2024": {
     "video": "公开讲座视频链接",
@@ -167,16 +35,148 @@
     "code": "未确认",
     "practice": "未确认"
   },
-  "berkeley-agentic-ai-fall-2025": {
-    "video": "课程/讲座入口；逐课未核验",
-    "body": "课程页面，细目核验不足",
-    "code": "未确认",
-    "practice": "未确认"
-  },
   "cmu-11768-ai-agents-fall-2026": {
     "video": "公开课次视频入口；课程进行中",
     "body": "课程目录、阅读/PDF 入口",
     "code": "作业说明/资源入口，部分材料未发布",
     "practice": "Harness、评测、训练作业与研究项目；未完成"
+  },
+  "generic_agent": {
+    "video": "未确认统一配套视频",
+    "body": "公开中文指南/目录",
+    "code": "公开项目/示例入口，未完整运行",
+    "practice": "13 章与案例；独立评分体系未确认"
+  },
+  "datawhale_hello_agents": {
+    "video": "未统一确认配套视频",
+    "body": "完整中文教材已审阅",
+    "code": "公开仓库与正文代码",
+    "practice": "章节实践、多个项目；毕业设计指导，统一评分标准未确认"
+  },
+  "dlai-ai-agents-in-langgraph": {
+    "video": "短课视频入口",
+    "body": "公开目录；完整正文未获取",
+    "code": "平台 Code Example 标识；文件未核验",
+    "practice": "短课实现实践；作业反馈未核验"
+  },
+  "dlai-building-coding-agents-tool-execution": {
+    "video": "短课视频入口",
+    "body": "公开目录；完整正文未获取",
+    "code": "平台 Code Example 标识；文件未核验",
+    "practice": "代码执行/开发案例；评分未核验"
+  },
+  "dlai-multi-ai-agent-systems-crewai": {
+    "video": "短课视频入口",
+    "body": "公开目录；完整正文未获取",
+    "code": "平台 Code Example 标识；文件未核验",
+    "practice": "多 Agent 案例；评分未核验"
+  },
+  "freecodecamp_agentic_ai": {
+    "video": "公开长视频；未全部观看",
+    "body": "章节说明；完整转录未获取",
+    "code": "公开配套代码仓库",
+    "practice": "视频带项目；无统一评分确认"
+  },
+  "google_agents_2025": {
+    "video": "历史活动回放入口",
+    "body": "白皮书、活动材料入口",
+    "code": "公开 codelab/Notebook 入口",
+    "practice": "五天实践与历史 capstone；提交窗口已结束"
+  },
+  "google_agents_2026_vibecoding": {
+    "video": "活动视频/直播入口，逐项未审阅",
+    "body": "2026 活动目录/材料入口",
+    "code": "codelab 入口；内容未逐例核验",
+    "practice": "规格、评测、安全与交付实践；完成度未核验"
+  },
+  "huggingface_agents": {
+    "video": "部分配套视频入口",
+    "body": "单元正文已审阅",
+    "code": "公开 Notebook/代码与项目入口",
+    "practice": "练习、任务基准与项目；评测范围见研究记录"
+  },
+  "huggingface-mcp": {
+    "video": "部分演示/配套视频入口",
+    "body": "公开单元正文与目录入口",
+    "code": "公开课程仓库/示例入口",
+    "practice": "客户端/服务器实践与应用；未完整核验"
+  },
+  "ibm-agentic-ai-in-practice": {
+    "video": "学习路径内教程，形式逐项未核验",
+    "body": "历史目录快照；当前入口可能调整",
+    "code": "教程代码入口未逐项确认",
+    "practice": "多框架教程；完整项目/评分未核验"
+  },
+  "langgraph_fundamentals": {
+    "video": "Academy 课程视频入口",
+    "body": "目录/课程说明；Notebook 已审阅",
+    "code": "公开 Notebook 仓库",
+    "practice": "模块练习与研究助手；部署模块，评分未确认"
+  },
+  "langchain_observability_evaluations": {
+    "video": "Academy 课程视频入口",
+    "body": "官方详细目录；未完课",
+    "code": "示例/配套代码入口；未逐例审阅",
+    "practice": "数据集、评测实验、反馈实践；未完成验证"
+  },
+  "langchain_deep_agents": {
+    "video": "Academy 课程视频入口",
+    "body": "5 模块目录，完整正文未获取",
+    "code": "公开 lca-deepagents 仓库入口",
+    "practice": "项目/实践入口；未完成验证"
+  },
+  "langchain_ambient_agents": {
+    "video": "Academy 项目课视频入口",
+    "body": "6 模块目录，完整正文未获取",
+    "code": "配套项目入口；未逐例审阅",
+    "practice": "邮件助手项目；环境及评价细则未验证"
+  },
+  "microsoft_ai_agents": {
+    "video": "1–13 课视频链接；14–18 未确认",
+    "body": "18 课正文已审阅",
+    "code": "公开仓库与 Notebook",
+    "practice": "章节代码练习与案例；统一毕业项目未确认"
+  },
+  "nvidia-building-agentic-ai-applications": {
+    "video": "课程存在；具体形式未核验",
+    "body": "简介；逐节目录不足",
+    "code": "未确认",
+    "practice": "未确认"
+  },
+  "nvidia-building-rag-agents": {
+    "video": "自学/讲师形式依具体版本",
+    "body": "公开模块介绍，完整讲义未获取",
+    "code": "课程宣称云端实验环境；公开代码未确认",
+    "practice": "RAG 实践；账号及课程环境需要另行核验"
+  },
+  "openai_building_agents": {
+    "video": "此文档路线未确认统一视频",
+    "body": "官方指南正文已获取",
+    "code": "官方文档示例；公开 SDK",
+    "practice": "本仓库实验为自行设计，不算官方作业"
+  },
+  "vanderbilt_python_agent_architecture": {
+    "video": "Coursera 课程入口",
+    "body": "公开简介；完整讲义未获取",
+    "code": "Python 架构主题；文件未核验",
+    "practice": "完整实践与评分未核验"
+  },
+  "vanderbilt_python_agent_implementation": {
+    "video": "Coursera 课程入口",
+    "body": "公开简介；完整讲义未获取",
+    "code": "实现课程宣称 Python 实践；文件未核验",
+    "practice": "平台内练习/作业细目未核验"
+  },
+  "vanderbilt_prompt_engineering": {
+    "video": "Coursera 课程入口",
+    "body": "公开简介；完整讲义未获取",
+    "code": "不以代码实现为主；材料未核验",
+    "practice": "提示实践；完整作业与评分未核验"
+  },
+  "deeplearning_ai_agentic_ai": {
+    "video": "课程视频；未全部观看",
+    "body": "31 份公开转录已审阅",
+    "code": "课程宣称代码示例；Notebook 未核验",
+    "practice": "课程宣称练习/示例；完整作业及评分未核验"
   }
 }

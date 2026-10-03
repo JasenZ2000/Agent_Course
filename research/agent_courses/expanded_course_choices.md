@@ -18,9 +18,7 @@
 | [freeCodeCamp / Bappy Agentic AI长课](https://www.youtube.com/watch?v=Zy7EXDONlTY) | 长视频与[代码仓库](https://github.com/entbappy/Complete-Agentic-AI-Course) | 喜欢跟着视频做系列项目；课程/API环境成本分开看 |
 | [CMU 11-768 AI Agents](https://www.cmu-agents.com/) | 大学研究生课程，2026秋季进行中 | 有ML/语言模型基础后学习训练、评测、安全等研究主题；公开材料不等于完整MOOC |
 
-## 视频怎样呈现更丰富的选择
-
-可以先展示全部名单，再按教学方式介绍：
+## 按课程形式查看资源
 
 1. **文字与中文教材**：Hello-Agents、Generic Agent。
 2. **连续入门路线**：吴恩达、HF、Google/Kaggle、Vanderbilt。
@@ -28,13 +26,12 @@
 4. **专题课**：评测、MCP、NVIDIA RAG、DLAI项目短课。
 5. **厂商参考与研究路线**：Anthropic课程、OpenAI文档、IBM路径、Berkeley和CMU。
 
-每项说清四件事即可：从哪里开始、目录怎么走、能跟做什么、需要什么准备。没有实际完成课程之前，标题和口播使用“介绍与选择”“目录比较”，学习效果的判断保留待实践。
+各项比较以公开目录、课程说明和可获取的代码入口为依据。课程实践与学习效果未核实时，结论保持在资料审阅范围内。
 
 ## 研究依据
 
 - [框架工程与大学在线课程](additional_framework_university_courses.md)
 - [厂商课程与学习路径](additional_vendor_courses.md)
 - [更多开源与公开课程](additional_open_courses.md)
-- 当前扩充口播稿（原本地资料引用，未随公开版收录）
 
 Vanderbilt三门和六门系列重叠；Google不同年份版本不重复当成独立课程。NVIDIA各版本、促销、实验算力的收费口径不同，不据某个Free标签推断全链路零成本。开源文档、参考架构、课内单章和课程主体也分别记录。

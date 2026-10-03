@@ -2,8 +2,6 @@
 
 [返回总目录](../../README.md) · [官网](https://huggingface.co/learn/mcp-course/en/unit0/introduction) · [学后评价](review.md)
 
-状态：待开始个人学习。当前内容为资料整理，不代表课程已完成。
-
 ## 目录依据
 
 依据官方英文目录归纳，覆盖 Unit 0 至 Unit 3.1；记录确认目录与项目方向，未逐课评测。
@@ -41,10 +39,8 @@
 
 - [研究分析](../../research/agent_courses/providers/extras/analysis.md)（同一提供方可能涵盖多项资源）
 
-## 我的学习记录
+## 相关目录
 
 - [章节笔记](notes/README.md)
-- [实践与 Demo](practice/README.md)
-- [学后评价](review.md)
-
-可以按 `notes/01-主题.md` 新建笔记；每次记录原课链接、理解、疑问与验证结果。
+- [实践材料](practice/README.md)
+- [课程评估](review.md)

@@ -10,15 +10,15 @@
 
 已有基础循环知识，想理解harness、Skill、执行环境或子Agent的人，可以优先审阅。这比原有Introduction to LangGraph更接近用户关心的开发面经术语，但这些术语仍是具体实现中的约定。仓库提供Python材料；目录有TypeScript准备课，README同时有相关实现待补说明，不能保证两种语言内容完全对齐。
 
-口播入口：“工具能调用以后，文件放在哪、上下文太长怎么办、任务怎么交给子Agent？这一门就顺着这些问题讲。”
+课程特点：在工具调用基础上继续讨论文件与执行环境、上下文管理和子 Agent 委派。
 
 ## 2. LangChain Academy：Introduction to Agent Observability & Evaluations
 
-[官方课程](https://academy.langchain.com/courses/intro-to-langsmith)。页面当前标题与旧URL不同，录制时按当前标题标注。
+[官方课程](https://academy.langchain.com/courses/intro-to-langsmith)。页面当前标题与旧 URL 不同，标题和入口应以课程页面为准。
 
 目录主线是运行观测、测试与评估、提示词开发、人工反馈、生产观测。具体入口包括数据集、评估器、实验结果、成对比较、标注队列和在线评估。适合已经有一个Agent，想建立失败记录与回归评测的人；教学围绕LangSmith，需要另外检查账户额度及外部模型费用。
 
-视频可以用“换了提示词以后，怎么知道真的变好”引入。它与构建Agent的课程是不同专题，不应让刚学Python的观众同时开始两套。
+该课程与 Agent 构建课程属于不同专题，重点是运行观测、数据集和评估流程；先具备一个可观测的应用会更容易理解这些内容。
 
 ## 3. LangChain Academy：Project — Ambient Agents with LangGraph
 
@@ -26,7 +26,7 @@
 
 项目围绕邮件管理，适合希望跟着一项任务把开发流程串起来的人。可以与基础图课程比较：一套沿框架概念推进，一套沿具体应用推进。课程代码、账号配置和邮件集成尚未逐项验证；不能称已跑通邮件自动处理。
 
-视频入口：“如果单看节点和边比较抽象，可以换一个邮箱助手项目，看看评测、人工检查和记忆怎样进入同一份程序。”
+该项目可用于观察评测、人工介入和记忆如何出现在同一应用流程中。
 
 ## 4. Vanderbilt / Coursera：AI Agents and Agentic AI in Python
 
@@ -40,12 +40,12 @@
 
 [六门课系列](https://www.coursera.org/specializations/ai-agents)。与上述三门系列有重叠，另包含领导者入门、ChatGPT数据分析和可信生成式AI等内容。希望补概念与工具使用可以对照；专注应用开发的人应先看Python核心课的实际目录。
 
-综述中可以给出两种组合的区别，不能把它们加起来说成九门独立Agent课程，也不能把所有Prompt或ChatGPT课程算作Agent编程课。
+两种系列存在重叠，不应相加统计为九门独立 Agent 课程；Prompt 或 ChatGPT 课程也不都属于 Agent 编程课。
 
-## 对原视频的补充位置
+## 与其他资源的关系
 
-- Deep Agents：放在状态编排之后，专门回答harness、文件系统、Skills和子Agent。
-- Observability & Evaluations：单列评测专题，补“能运行之后如何判断质量”。
-- Ambient Agents：作为跟做完整应用的项目选择。
-- Vanderbilt：与Datawhale、HF和吴恩达放在一起比较基础学习方式；突出Python手写实现。
-- 六门组合：仅在资源表作为替代路径备注，不增加独立课程数量。
+- Deep Agents：补充 harness、文件系统、Skills 和子 Agent 的实现主题。
+- Observability & Evaluations：单列为评测专题，聚焦运行质量和失败定位。
+- Ambient Agents：提供围绕邮件管理的完整应用项目。
+- Vanderbilt：可与 Datawhale、HF 和吴恩达课程比较其 Python 手写实现路径。
+- 六门组合：作为重叠系列的替代路径列出，不增加独立课程数量。

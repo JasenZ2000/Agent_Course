@@ -102,9 +102,9 @@
 | Spaces/排行榜/证书 | 页面公开，账号可访问。 | Space 算力、睡眠、配额和外部服务可能变化；Unit 4 要公开 Space 代码链接。 |
 | LoRA 与 Pokémon | 文字公开。 | 微调需要相应 CPU/GPU/内存；游戏单元依赖外部 Space/Showdown 服务。 |
 
-## 7. 适合屏幕展示的具体章节例子
+## 7. 静态资料中的具体章节例子
 
-以下是静态页面/代码可直接展示的点，不表示相关视频已观看。
+以下例子来自静态页面或代码；配套视频未逐一观看。
 
 1. **Agency 光谱表**：processor、router、tool caller、multi-step、multi-agent 一张表解释“Agent 程度”。来源：`what-are-agents.mdx`（原本地资料引用，未随公开版收录）。
 2. **天气 loop**：Thought → weather tool Action → Observation → updated thought → Final Action，适合逐帧讲 loop。来源：`agent-steps-and-structure.mdx`（原本地资料引用，未随公开版收录）。

@@ -19,9 +19,9 @@
 | 证据类型 | 第一人称已完成面试、第一人称准备帖、二手整理、教学/模拟、官方岗位、官方工程资料 |
 | 可见范围 | 原帖全文、公开段落、视频页面元数据、搜索摘要、需登录、失效 |
 | 内容 | 只概括公开可见的追问主题；保留项目/算法/系统设计/编码等环节差异 |
-| 视频用途 | 可做目录中的例子、需要实际观看/转写、可作为工程定义锚点，或仅待核验 |
+| 媒体材料范围 | 已查看正文、仅有页面元数据/简介、需实际观看/转写，或仅待核验 |
 
-一条匿名面经最多支持“这个投稿者说自己在这个场景遇到了这些问题”。它不支持“某公司统一这样考”或通过率推断。岗位 JD 说明工作内容，不说明面试题。公开视频若只查到标题、简介和章节，也不能写成“我看过作者如何回答”。
+一条匿名面经最多支持“这个投稿者说自己在这个场景遇到了这些问题”。它不支持“某公司统一这样考”或通过率推断。岗位 JD 说明工作内容，不说明面试题。视频若只查到标题、简介和章节，不能据此断言其正文内容。
 
 ## 3. 四条岗位路线
 
@@ -59,20 +59,20 @@
 | `model-research` | 训练/微调/对齐、规划算法、论文与实验 | 数据、基线、消融及复现条件 |
 | `behavior` | 跨团队合作、失败复盘、用户价值和取舍 | 一件具体经历的行动和结果 |
 
-录制目录综述时只展示五个大类；详细标签供之后做专题视频与检索使用。
+本综述按五个大类汇总；详细标签用于进一步检索和主题分析。
 
 ## 5. 这批材料初步能说明什么
 
-这里的归纳来自定向收集的公开样本，主要用途是决定下一步学什么、拍什么；它不是按岗位随机抽样得到的“高频题统计”。
+这里的归纳来自定向收集的公开样本，主要用于了解岗位主题与课程内容之间的关联；它不是按岗位随机抽样得到的“高频题统计”。
 
-| 观察 | 支持它的具体材料 | 适合转成的第一人称视频问题 |
+| 观察 | 支持它的具体材料 | 相关能力主题 |
 |---|---|---|
-| 国内应用/全栈样本常把 Agent 项目和传统工程基础连着追问 | [牛客小红书 Agentic 全栈实习自述](https://www.nowcoder.com/feed/main/detail/e5e9311a623940eead6ec98c65e7f9e8?sourceSSR=subject)、[三场 Agent 后端复盘](https://www.nowcoder.com/discuss/919608103723622400?sourceSSR=post&weFlow=true) | “我给自己的 Agent 项目补了并发、数据库和异常处理，能否说清原因？” |
-| 具体项目比术语列表更容易被连续追问 | [牛客蚂蚁智能体应用实习自述](https://www.nowcoder.com/feed/main/detail/376b964b0d154881bcfe3c46fe1a0e2a?sourceSSR=post)、[牛客小红书一面](https://www.nowcoder.com/feed/main/detail/f1ed02bfdae04730837753b62e0d58b9?toCommentId=22874357) | “我说自己会 Harness，面试官继续问状态和并发时能拿出什么证据？” |
-| 海外 AI coding 个案强调在现有代码和测试中做工程判断 | [Meta 候选人自述](https://leetcode.com/discuss/post/7335102/)、[Anthropic 工程岗候选人公开复盘](https://www.linkedin.com/posts/ashutosh-kumar-singh951_recently-i-gave-an-interview-with-anthropic-activity-7426682262643150848-c2Hp) | “我让编码 Agent 修一个仓库问题，但自己如何检验它的修改？” |
-| 官方岗位和工程资料共同指向可评测、可靠的 Agent 系统 | [OpenAI Codex 应用工程岗位](https://openai.com/careers/applied-ai-engineer-codex-core-agent-san-francisco/)、[Anthropic Agent eval 工程文档](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) | “我如何定义一个 Agent 真的完成任务，并且过程没有越权？” |
+| 国内应用/全栈样本常把 Agent 项目和传统工程基础连着追问 | [牛客小红书 Agentic 全栈实习自述](https://www.nowcoder.com/feed/main/detail/e5e9311a623940eead6ec98c65e7f9e8?sourceSSR=subject)、[三场 Agent 后端复盘](https://www.nowcoder.com/discuss/919608103723622400?sourceSSR=post&weFlow=true) | 并发、数据库、异常处理 |
+| 具体项目比术语列表更容易被连续追问 | [牛客蚂蚁智能体应用实习自述](https://www.nowcoder.com/feed/main/detail/376b964b0d154881bcfe3c46fe1a0e2a?sourceSSR=post)、[牛客小红书一面](https://www.nowcoder.com/feed/main/detail/f1ed02bfdae04730837753b62e0d58b9?toCommentId=22874357) | 项目贡献、状态管理、并发 |
+| 海外 AI coding 个案强调在现有代码和测试中做工程判断 | [Meta 候选人自述](https://leetcode.com/discuss/post/7335102/)、[Anthropic 工程岗候选人公开复盘](https://www.linkedin.com/posts/ashutosh-kumar-singh951_recently-i-gave-an-interview-with-anthropic-activity-7426682262643150848-c2Hp) | 代码库阅读、测试与修改验证 |
+| 官方岗位和工程资料共同指向可评测、可靠的 Agent 系统 | [OpenAI Codex 应用工程岗位](https://openai.com/careers/applied-ai-engineer-codex-core-agent-san-francisco/)、[Anthropic Agent eval 工程文档](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) | 任务成功条件与操作边界 |
 
-以上行与行之间不能直接比较“哪个地区更重视什么”：岗位级别、团队、发布时间和平台发帖习惯都不同。海外资料里很多是资深岗位，第一期视频应先服务国内实习/校招观众，海外案例作为视野扩展和工程问题参照。
+以上行与行之间不能直接比较“哪个地区更重视什么”：岗位级别、团队、发布时间和平台发帖习惯都不同。海外样本中资深岗位较多，应与国内实习/校招样本分开理解。
 
 ## 6. 本轮覆盖与可见缺口
 
@@ -83,7 +83,7 @@
 | 牛客 | 字节、百度、小红书、蚂蚁、阿里云、拼多多、B 站等应用/后端/Coding Agent 面经；项目、RAG、状态、评测和传统工程基础都有具体追问 | 作者背景、岗位 JD、面试发生时间经常不完整；不能据帖子多寡推断公司实际招聘权重 |
 | V2EX | 从传统开发转 AI 应用、前端/后端面试和岗位讨论 | 多数不是逐轮题单，适合职业路径和信息缺失案例 |
 | Bilibili / YouTube | 可核对页面元数据、作者自述、简介和公开章节；有少量第一人称视频与大量培训综述 | 本轮没有逐条观看或转写，标题里的“真题/高频”未独立验证；某些搜索结果对应的视频已经失效 |
-| 小红书 / 微信 | 保留可追踪的帖子 ID、题名或原文链接 | 当前环境原站登录/超时/抓取失败；正文、作者和问题未核验，不进入第一期论据 |
+| 小红书 / 微信 | 保留可追踪的帖子 ID、题名或原文链接 | 当前环境原站登录/超时/抓取失败；正文、作者和问题未核验，不计入已核验样本 |
 | 海外论坛/博客 | Google FDE、Meta AI coding、Amazon Applied Scientist、OpenAI Applied AI 评论、EPAM/Intuit 等具体个人经历；官方岗位可交叉核对工作内容 | 一手 Agent 专岗样本仍少，senior/社招多；Blind/Glassdoor 常有登录墙或匿名二手转述 |
 
 **覆盖率不可估计。** 没有公开的“所有面试”总体，也无法知道未发帖的面试。后续要继续扩充，应优先补少量高质量缺口：国内非牛客平台的一手可读原帖、海外 Agent 应用专岗的候选人独立复盘、每份面经对应的具体岗位 JD，以及公开视频的实际转写。
@@ -98,13 +98,10 @@
 
 - [新增中国平台第一人称面经](interview_catalog_china_expanded.md)
 - [新增海外第一人称与第三方报告](interview_catalog_overseas_expanded.md)
-- 首期视频形式和参考视频研究（原本地资料引用，未随公开版收录）
 
-## 8. 综述视频应给出的结论
+## 8. 样本的使用边界
 
-这期是“目录”，不做完整题解。观众看完应能回答：自己要投哪条岗位路线；应该从项目、Agent 系统设计、评测还是编码基础先补；每类资料哪里找、可信到什么程度；下一期会用哪个最小项目验证这些问题。
-
-展示方式建议是一张二维图：横轴为岗位路线，纵轴为面试环节。每个格子只放 1–2 个有来源的真实样本和一条自己的后续实验计划。不要堆满公司 logo 或展示未经验证的“高频百分比”。
+本资料按岗位路线和面试环节组织公开样本，适用于查找项目、Agent 系统设计、评测和编码基础等相关主题。样本范围与来源可信度见逐条链接；不同证据等级不应合并为“高频题”统计。
 
 ## 9. 官方 Agent 教材如何辅助面经准备
 

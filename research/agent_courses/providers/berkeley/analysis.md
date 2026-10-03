@@ -12,16 +12,16 @@
 
 这些是公开大纲列出的主题与阅读线索，不是我们对相关论文全文的分析。
 
-| 入口 | 可以继续追问的问题 | 对当前视频的用途 |
+| 入口 | 可以继续追问的问题 | 对课程结构的说明 |
 |---|---|---|
-| LLM Reasoning | 推理提示与模型自身能力怎样区分？ | 显示Agent背后还有模型能力问题。 |
-| ReAct/WebShop | 推理与行动如何交替，网页任务如何评价？ | 与HF基础loop衔接。 |
-| AutoGen/StateFlow | 多角色对话与状态驱动流程如何组织？ | 补编排研究视角。 |
-| 企业grounding/RAG | 模型怎样借助外部资料？ | 与知识库应用连接。 |
-| DSPy/复合AI系统 | 多阶段程序的提示和示例如何优化？ | 补“怎样改进系统”的问题。 |
-| SWE-agent/OpenHands | 编码Agent与执行环境如何交互？ | 对接Coding Agent/Harness方向。 |
-| WorkArena/WorkArena++ | 企业任务的组合规划如何评价？ | 展示评测并非只问文本答案。 |
-| GR00T/Voyager/Eureka | Agent扩展到机器人和环境交互时多了什么约束？ | 连接你后续具身智能选题。 |
+| LLM Reasoning | 推理提示与模型自身能力怎样区分？ | 涉及模型能力与 Agent 系统的关系。 |
+| ReAct/WebShop | 推理与行动如何交替，网页任务如何评价？ | 涉及行动循环和网页任务评测。 |
+| AutoGen/StateFlow | 多角色对话与状态驱动流程如何组织？ | 涉及多 Agent 协作与流程编排。 |
+| 企业grounding/RAG | 模型怎样借助外部资料？ | 涉及知识检索与生成。 |
+| DSPy/复合AI系统 | 多阶段程序的提示和示例如何优化？ | 涉及系统优化方法。 |
+| SWE-agent/OpenHands | 编码Agent与执行环境如何交互？ | 涉及 Coding Agent 与执行环境。 |
+| WorkArena/WorkArena++ | 企业任务的组合规划如何评价？ | 涉及复合任务规划与评测。 |
+| GR00T/Voyager/Eureka | Agent扩展到机器人和环境交互时多了什么约束？ | 涉及具身智能与环境交互。 |
 
 后期课程还列科学、能力评测、安全与可信Agent主题。上述论文仅按大纲记录，不能把题名理解成已经掌握其方法和结果。
 
@@ -29,4 +29,4 @@
 
 课程主题涉及planning、tools、RAG、多Agent、评测与编码系统，适合扩展视野。操作边界、Skill与Tool、query歧义、具体SDK的审批接口和SQLite选型，不能仅靠此大纲确认解释是否完整；应回到官方接口文档和已取得正文的课程。对于Java、索引、事务、并发容量，仍需独立后端准备。
 
-推荐视频定位：“学完基础以后可以按研究问题继续看的公开大学讲座”。不要定位为已证实适合零基础、已经全文审阅的生产应用实训。章节与资料范围见[curriculum](curriculum.md)、[evidence](evidence.md)。
+适用范围：公开大学讲座适合在具备基础后按研究问题延伸阅读。当前资料不足以将其概括为零基础教程或完整生产应用实训。章节与资料范围见[curriculum](curriculum.md)、[evidence](evidence.md)。

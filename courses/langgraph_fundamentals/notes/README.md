@@ -1,8 +1,5 @@
-# LangChain Academy Introduction to LangGraph：章节笔记
+# 章节笔记
 
 [课程入口](../README.md)
 
-尚未开始。新笔记可复制 [模板](../../../templates/chapter-note.md)，按章节编号命名。
-
-| 日期 | 章节 | 笔记 | 状态 |
-|---|---|---|---|
+此目录可用于保存课程章节笔记。可选用[空白模板](../../../templates/chapter-note.md)。

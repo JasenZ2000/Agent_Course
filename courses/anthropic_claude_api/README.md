@@ -2,8 +2,6 @@
 
 [返回总目录](../../README.md) · [官网](https://academy.claude.com/courses/building-with-the-claude-api) · [学后评价](review.md)
 
-状态：待开始个人学习。当前内容为资料整理，不代表课程已完成。
-
 ## 目录依据
 
 官方目录（67个教学页按主题编辑归组，组内依课序）
@@ -66,10 +64,8 @@
 - [详细章节地图](../../research/agent_courses/providers/anthropic/curriculum.md)（同一提供方可能涵盖多项资源）
 - [证据与获取范围](../../research/agent_courses/providers/anthropic/evidence.md)（同一提供方可能涵盖多项资源）
 
-## 我的学习记录
+## 相关目录
 
 - [章节笔记](notes/README.md)
-- [实践与 Demo](practice/README.md)
-- [学后评价](review.md)
-
-可以按 `notes/01-主题.md` 新建笔记；每次记录原课链接、理解、疑问与验证结果。
+- [实践材料](practice/README.md)
+- [课程评估](review.md)

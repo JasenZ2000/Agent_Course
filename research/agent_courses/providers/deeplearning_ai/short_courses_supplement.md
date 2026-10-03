@@ -36,12 +36,6 @@
 
 按官方简介与目录比较，《Agentic AI》更适合作为理解 Agentic Workflow 设计模式与评估思路的主线；三门短课分别落到 LangGraph 的流程与状态控制、CrewAI 的多 Agent 协作、以及 Coding Agent 的代码执行和沙箱。可把它们当成专题补充，按项目兴趣选择。讲师应逐门按课程页标注：这三门短课并非 Andrew Ng 主讲；在本组课程里，Andrew Ng 主讲的是《Agentic AI》。
 
-## 可用于口播的三句
-
-- “DeepLearning.AI 上不只有一门 Agent 课：Andrew Ng 主讲的《Agentic AI》讲设计模式和评估，另外还有框架和项目导向的短课。”
-- “想做多 Agent 业务流程，可以看 João Moura 主讲的 crewAI；想控制状态、加搜索和人工检查，可以看 Harrison Chase、Rotem Weiss 主讲的 LangGraph。”
-- “如果你关注的是能写代码、操作文件并在沙箱里运行的 Coding Agent，可以接着看 Tereza Tizkova 和 Francesco Zuppichini 的这门课。”
-
 ## 官方来源
 
 - [AI Agents in LangGraph — DeepLearning.AI](https://www.deeplearning.ai/courses/ai-agents-in-langgraph)

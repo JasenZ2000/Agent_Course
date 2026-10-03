@@ -2,8 +2,6 @@
 
 [返回总目录](../../README.md) · [官网](https://www.nvidia.com/en-au/training/instructor-led-workshops/building-rag-agents-with-llms/) · [学后评价](review.md)
 
-状态：待开始个人学习。当前内容为资料整理，不代表课程已完成。
-
 ## 目录依据
 
 依据NVIDIA官方课程页与目录审阅记录整理8小时模块；未运行课程代码。
@@ -36,10 +34,8 @@
 
 - [厂商课程研究记录](../../research/agent_courses/additional_vendor_courses.md)
 
-## 我的学习记录
+## 相关目录
 
 - [章节笔记](notes/README.md)
-- [实践与 Demo](practice/README.md)
-- [学后评价](review.md)
-
-可以按 `notes/01-主题.md` 新建笔记；每次记录原课链接、理解、疑问与验证结果。
+- [实践材料](practice/README.md)
+- [课程评估](review.md)

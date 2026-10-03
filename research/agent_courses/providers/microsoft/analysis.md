@@ -127,9 +127,9 @@ Setup 明确要求 Python 3.12+；.NET 示例需要 .NET 10+；主路径还要�
 - README 宣称“每课有短视频”，实际表格只给 01–13 的视频，14–18 为空。
 - notebook 静态可读，但没有运行就不能验证环境、权限、region/model availability 和输出。
 
-## 8. 适合屏幕展示的具体章节例子
+## 8. 静态资料中的具体章节例子
 
-以下展示点来自正文/图片/代码，视频未逐看。
+以下例子来自正文、图片或代码；配套视频未逐一观看。
 
 1. **STUDY_GUIDE 八组件表**：Model、Tools、Knowledge、Context、Memory、Planning、Orchestration、Trust，一屏说明整套课的系统观。来源：`STUDY_GUIDE.md`（原本地资料引用，未随公开版收录）。
 2. **Lesson 04 function-call round trip**：schema → model 返回 tool call → 执行 → tool output → final response；旁边接 SQLite read-only 权限提醒。来源：`04-tool-use/README.md`（原本地资料引用，未随公开版收录）。

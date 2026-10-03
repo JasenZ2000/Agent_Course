@@ -29,4 +29,4 @@ Module 5 把同一 thread 内的 checkpoint 和跨 thread 的长期 Store 分开
 
 ## 对本轮研究的用途
 
-本课程可作为“把工具调用放进有状态、可暂停、可恢复的图”的原始证据。适合从简单 Router 讲到人工批准，再用 Research Assistant 展示并行编排；若需要 SQLite 后续如何转入服务型部署，可对照 Module 2 与 Module 6。口播与跨课程/面经定位请以资料库总览为准；本文只总结该课程自身材料，不替用户写视频文案。
+本课程可作为“把工具调用放进有状态、可暂停、可恢复的图”的材料依据。其目录包含从简单 Router、人工批准到 Research Assistant 并行编排的内容；SQLite 示例及服务型部署可对照 Module 2 与 Module 6。跨课程与面经定位见资料库总览；本文只总结该课程自身材料。
