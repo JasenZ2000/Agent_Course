@@ -6,6 +6,7 @@
 
 ## 从这里开始
 
+- [内容覆盖、深度与材料形式比较](comparison/README.md)：共同知识主线、30 项资源矩阵与按目标选课。
 - [整体评价与选课建议](OVERVIEW.md)：适合谁、系统性、主要价值、缺口及面经对应。
 - [30 张课程目录图](assets/course_maps/README.md)：PNG、SVG 和来源链接。
 - [详细研究资料](research/agent_courses/README.md)：逐提供方分析、章节地图与证据范围。

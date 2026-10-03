@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agent 课程：知识主线与覆盖比较</title>
+<style>
+:root{color-scheme:light dark;--bg:light-dark(#fafafa,#191b20);--fg:light-dark(#20262d,#e6e8eb);--line:light-dark(#dadfe5,#444c57);--primary:light-dark(#254e61,#9bd2e4);--active:light-dark(#e6f0f4,#243d48);--muted:light-dark(#54606b,#b7c2cb)}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1260px;margin:auto;padding:28px}h1{font-size:28px;margin:0}h2{font-size:21px;margin-top:32px}a{color:var(--primary)}p{max-width:900px;color:var(--muted)}button,select{font:inherit;color:inherit;background:var(--bg);border:1px solid var(--line);padding:8px 12px;border-radius:5px}button{cursor:pointer}button[aria-pressed=true]{background:var(--active);border-color:var(--primary)}nav{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.picker{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:7px}label{display:flex;gap:8px;align-items:flex-start;padding:4px}input{margin-top:6px}.tablewrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:9px}thead th{background:var(--bg)}#grid th:first-child{min-width:205px}#grid th:not(:first-child){min-width:145px;max-width:195px}.cell{width:100%;border:0;min-height:40px}.lv1{background:color-mix(in srgb,var(--primary) 8%,var(--bg))}.lv2{background:color-mix(in srgb,var(--primary) 17%,var(--bg))}.lv3{background:color-mix(in srgb,var(--primary) 30%,var(--bg))}.legend{display:flex;flex-wrap:wrap;gap:18px;margin:12px 0;color:var(--muted)}#detail{border-left:3px solid var(--primary);padding:10px 16px;margin-top:16px;overflow-wrap:anywhere}details{margin:16px 0}summary{cursor:pointer}#count{color:var(--muted)}@media(max-width:600px){main{padding:16px}h1{font-size:23px}.picker{grid-template-columns:1fr}nav button{flex:1 1 130px}}
+</style></head><body><main>
+<h1>Agent 课程：先看知识，再选教材</h1>
+<p>30 个资源 · 49 个知识点 · 10 个学习阶段。比较的是已确认内容与深度下限；目录级核对不表示课程讲得浅。研究与训练是扩展分支。</p>
+<a href="README.md">选择说明</a> · <a href="METHOD.md">方法与限制</a> · <a href="EVIDENCE.md">全部证据</a>
+<h2>一、共同知识主线</h2><nav id="stages" aria-label="知识阶段"></nav>
+<details><summary>选择比较课程</summary><div id="picker" class="picker"></div></details>
+<div class="legend"><span>1 目录明确列出</span><span>2 正文解释</span><span>3 定位到实现/练习</span><span>— 当前未定位</span><span>? 细目不足</span></div>
+<div id="count" aria-live="polite"></div><div class="tablewrap"><table id="grid"></table></div>
+<div id="detail" aria-live="polite">点击单元格查看对应课程的证据。3 不代表代码已经跑通；复合知识点的局部覆盖不表示全部子主题都涉及。</div>
+<h2>二、材料形式</h2><p>只显示所选课程；视频入口、可读正文、公开代码和平台内示例分别记录。有项目示例不等于有毕业作业与评分。</p>
+<div class="tablewrap"><table id="formats"></table></div>
+<p>盘点日期 2026-10-03。无综合分数与课程排名。离线页面可直接打开，GitHub 的 Markdown 文档提供同一份静态比较。</p>
+</main><script>
+const data=/*DATA*/;
+const selected=new Set(['datawhale_hello_agents','deeplearning_ai_agentic_ai','huggingface_agents','microsoft_ai_agents','langgraph_fundamentals']);let stage=0;
+const byId=id=>document.getElementById(id);const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function render(){
+ const courses=data.courses.filter(c=>selected.has(c.id));const topics=data.topics.filter(t=>t.stage_index===stage);
+ byId('stages').innerHTML=data.stages.map((s,i)=>`<button type="button" data-stage="${i}" aria-pressed="${i===stage}">${i+1}. ${esc(s)}</button>`).join('');
+ byId('count').textContent=`${data.stages[stage]} · ${topics.length} 个节点 · ${courses.length} 个资源（课程顺序沿用目录）`;
+ byId('grid').innerHTML='<thead><tr><th scope="col">知识点</th>'+courses.map(c=>`<th scope="col">${esc(c.title)}</th>`).join('')+'</tr></thead><tbody>'+topics.map(t=>`<tr><th scope="row">${t.id} ${esc(t.title)}</th>`+courses.map(c=>{let v=c.cells[t.id];return `<td><button class="cell lv${typeof v.level==='number'?v.level:0}" type="button" data-course="${c.id}" data-topic="${t.id}" aria-label="${esc(c.title+'，'+t.title+'，'+data.depth_labels[v.level])}">${v.level}</button></td>`}).join('')+'</tr>').join('')+'</tbody>';
+ byId('formats').innerHTML='<thead><tr><th>课程</th><th>视频</th><th>正文</th><th>代码</th><th>练习/项目</th></tr></thead><tbody>'+courses.map(c=>'<tr><th>'+esc(c.title)+'</th>'+['video','body','code','practice'].map(k=>'<td>'+esc(c.materials[k])+'</td>').join('')+'</tr>').join('')+'</tbody>';
+}
+byId('picker').innerHTML=data.courses.map(c=>`<label><input type="checkbox" value="${c.id}" ${selected.has(c.id)?'checked':''}><span>${esc(c.title)}</span></label>`).join('');
+byId('picker').addEventListener('change',e=>{e.target.checked?selected.add(e.target.value):selected.delete(e.target.value);render()});
+byId('stages').addEventListener('click',e=>{if(e.target.dataset.stage!==undefined){stage=Number(e.target.dataset.stage);render()}});
+byId('grid').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const c=data.courses.find(c=>c.id===b.dataset.course),t=data.topics.find(t=>t.id===b.dataset.topic),v=c.cells[t.id];byId('detail').innerHTML=`<strong>${esc(c.title)} · ${t.id} ${esc(t.title)}</strong><br>${esc(data.depth_labels[v.level])}<br>${esc(v.locator||v.reason)}<br><a href="${esc(c.source)}" target="_blank" rel="noopener">官方入口</a>${v.review?` · <a href="../${esc(v.review)}">研究记录</a>`:''}`});render();
+</script></body></html>
